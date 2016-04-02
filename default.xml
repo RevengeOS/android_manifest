@@ -124,7 +124,7 @@
   <project groups="pdk-cw-fs" name="platform/external/ceres-solver" path="external/ceres-solver"/>
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview"/>
+  <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cmockery" path="external/cmockery"/>
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt"/>
@@ -412,36 +412,36 @@
   <project groups="pdk" name="platform/pdk" path="pdk"/>
   <project name="platform/platform_testing" path="platform_testing"/>
   <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
-  <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6"/>
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6"/>
-  <project name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
-  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
-  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8"/>
-  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9"/>
-  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers"/>
-  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
-  <project groups="pdk,darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"/>
-  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
-  <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9"/>
-  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
-  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc"/>
-  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project groups="darwin,pdk,pdk-cw-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5"/>
-  <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" clone-depth="1"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" clone-depth="1"/>
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
+  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" clone-depth="1"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" clone-depth="1"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers" clone-depth="1"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" clone-depth="1"/>
+  <project groups="pdk,darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" clone-depth="1"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1"/>
+  <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" clone-depth="1"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1"/>
+  <project groups="darwin,pdk,pdk-cw-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" clone-depth="1"/>
+  <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1"/>
+  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1"/>
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
-  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
-  <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1"/>
+  <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" clone-depth="1"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.BR.1.2.7_rb1.14"/>
+  <default remote="caf" revision="LA.BR.1.2.7_rb1.20"/>
 
   <remote  name="github"
            fetch="https://github.com" />

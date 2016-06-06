@@ -48,6 +48,7 @@
   <project name="platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
@@ -295,7 +296,6 @@
   <project groups="pdk" name="platform/external/vogar" path="external/vogar"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project groups="pdk-cw-fs" name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>

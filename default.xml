@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.BR.1.2.7_rb1.20"/>
+  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LA.BR.1.3.4_rb1.18"/>
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -90,16 +90,23 @@
 
 <!-- BEGIN CODEAURORA -->
   <project groups="pdk-cw-fs" name="device/common"/>
+  <project groups="pdk" name="device/generic/arm64"/>
+  <project groups="pdk" name="device/generic/armv7-a-neon"/>
+  <project groups="pdk" name="device/generic/common"/>
+  <project groups="pdk" name="device/generic/goldfish"/>
+  <project groups="pdk" name="device/generic/mips"/>
+  <project name="device/generic/qemu"/>
+  <project groups="pdk" name="device/generic/x86"/>
+  <project groups="pdk" name="device/generic/x86_64"/>
   <project groups="device" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
-  <project groups="device,fugu,pdk-fs" name="device/google/atv"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
   <project groups="pdk-cw-fs" name="platform/dalvik" path="dalvik"/>
-  <project name="platform/developers/build" path="developers/build"/>
-  <project name="platform/developers/demos" path="developers/demos"/>
+  <project groups="pdk-cw-fs" name="platform/developers/build" path="developers/build"/>
+  <project groups="pdk-cw-fs" name="platform/developers/demos" path="developers/demos"/>
   <project groups="pdk-cw-fs" name="platform/developers/docs" path="developers/docs"/>
   <project groups="pdk-cw-fs" name="platform/developers/samples/android" path="developers/samples/android"/>
   <project groups="pdk-cw-fs" name="platform/docs/source.android.com" path="docs/source.android.com"/>
@@ -140,6 +147,7 @@
   <project groups="drm_gralloc" name="platform/external/drm_gralloc" path="external/drm_gralloc"/>
   <project groups="drm_hwcomposer" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project groups="pdk-cw-fs" name="platform/external/droiddriver" path="external/droiddriver"/>
+  <project groups="pdk" name="platform/external/e2fsprogs_custom" path="external/e2fsprogs_blocks"/>
   <project groups="pdk-cw-fs" name="platform/external/easymock" path="external/easymock"/>
   <project name="platform/external/ebtables" path="external/ebtables"/>
   <project groups="pdk-cw-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder"/>
@@ -202,8 +210,10 @@
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk-cw-fs" name="platform/external/libmtp" path="external/libmtp"/>
+  <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
   <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
+  <project name="platform/external/libnfnetlink" path="external/libnfnetlink"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
   <project groups="pdk" name="platform/external/libopus" path="external/libopus"/>
@@ -264,6 +274,7 @@
   <project groups="pdk-cw-fs" name="platform/external/ppp" path="external/ppp"/>
   <project groups="pdk-java" name="platform/external/proguard" path="external/proguard"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf"/>
+  <project name="platform/external/qrngd" path="external/qrngd"/>
   <project groups="pdk-cw-fs" name="platform/external/regex-re2" path="external/regex-re2"/>
   <project groups="pdk-cw-fs" name="platform/external/replicaisland" path="external/replicaisland"/>
   <project groups="pdk-cw-fs" name="platform/external/robolectric" path="external/robolectric"/>
@@ -375,6 +386,7 @@
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
+  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
@@ -409,7 +421,7 @@
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project groups="pdk" name="platform/pdk" path="pdk"/>
-  <project name="platform/platform_testing" path="platform_testing"/>
+  <project groups="pdk" name="platform/platform_testing" path="platform_testing"/>
   <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
   <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" clone-depth="1"/>
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" clone-depth="1"/>
@@ -451,6 +463,7 @@
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc"/>
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/display-frameworks" path="vendor/qcom/opensource/display-frameworks"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service"/>

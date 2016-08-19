@@ -47,6 +47,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="ctr" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ctr" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="ctr" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ctr" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr"/>
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr"/>

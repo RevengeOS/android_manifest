@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.BR.1.3.4_rb1.18"/>
+  <remote  fetch="git://codeaurora.org/quic/la" 
+  	       name="caf"
+  	       review="codeaurora.org"/>
+  <default remote="caf" 
+  	       revision="LA.BR.1.3.4_rb1.18"/>
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -14,15 +17,35 @@
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/mm6.0" />
 
-<!-- BEGIN AOSP-CAF -->
-  <project name="platform_manifest" path="manifest" remote="aosp-caf" />
-  <project name="platform_build" path="build" remote="aosp-caf" >
-  <copyfile src="core/root.mk" dest="Makefile" />
+  <remote  name="ctr"
+           fetch="https://github.com/Citrus-CAF"
+           revision="refs/heads/m" />
+
+<!-- Citrus-CAF STARTS -->
+  <project name="art" path="art" remote="ctr" />
+  <project name="bionic" path="bionic" remote="ctr" />
+  <project path="build" name="build" remote="ctr" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/DUtils" name="external_DUtils" remote="ctr" revision="ctr6.0" />
+  <project path="frameworks/base" name="frameworks_base" remote="ctr" />
+  <project name="frameworks_native" path="frameworks/native" remote="ctr" />
+  <project path="manifest" name="manifest" remote="ctr" />
+  <project path="packages/apps/CitrusOTA" name="packages_apps_CitrusOTA" remote="ctr" />
+  <project path="packages/apps/CitrusSettings" name="packages_apps_CitrusSettings" remote="ctr" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="ctr" revision="ctr6.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ctr" />
+  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr"/>
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr"/>
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="ctr" />
+  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="ctr" />  
+  <project path="vendor/citrus" name="vendor_citrus" remote="ctr" />
+  <project name="Citrus-Seeds/OTA" path="OTA" remote="github" revision="ctr6.0" />
+  <!--CitrusCAF ENDS-->
+
+<!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
-  <project name="platform_art" path="art" remote="aosp-caf" />
-  <project name="platform_bionic" path="bionic" remote="aosp-caf" />
   <project name="platform_development" path="development" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
@@ -51,8 +74,6 @@
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
-  <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
-  <project name="platform_frameworks_native" path="frameworks/native" remote="aosp-caf" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aosp-caf" />
@@ -64,7 +85,6 @@
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="mm6.0-caf" remote="aosp-caf" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosp-caf" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosp-caf" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
@@ -73,7 +93,6 @@
   <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" /> 
   <project name="platform_system_qcom" path="system/qcom" remote="aosp-caf" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
@@ -349,11 +368,8 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
@@ -365,18 +381,14 @@
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
   <project name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio"/>
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
@@ -413,13 +425,6 @@
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
   <project name="platform/packages/services/Mms" path="packages/services/Mms"/>
   <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm"/>
-  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic"/>
-  <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4"/>
-  <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral"/>
-  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker"/>
-  <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke"/>
-  <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
-  <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project groups="pdk" name="platform/pdk" path="pdk"/>
   <project groups="pdk" name="platform/platform_testing" path="platform_testing"/>
   <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
@@ -469,5 +474,4 @@
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
 <!-- END CODEAURORA -->
-
 </manifest>

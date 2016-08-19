@@ -1,4 +1,7 @@
-AOSP-CAF
+<img src="https://raw.githubusercontent.com/Citrus-CAF/manifest/m/citrus.png">
+=============
+
+Citrus-CAF
 ===========
 
 Getting Started
@@ -7,9 +10,9 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the AOSP-CAF trees, use a command like this:
+To initialize your local repository using the Citrus-CAF trees, use a command like this:
 
-    repo init -u https://github.com/AOSP-CAF/platform_manifest.git -b mm6.0
+    repo init -u https://github.com/Citrus-CAF/manifest.git -b m
 
 Then to sync up:
 
@@ -18,10 +21,8 @@ Then to sync up:
 Building the source
 ---------------
 
-The source at AOSP-CAF is well configured for building.
+The source at Citrus-CAF is well configured for building.
 
     $ . build/envsetup.sh
-    $ lunch aosp_device-userdebug
-    $ make -jX otapackage
-
-where X is the number of jobs you would like to allot to the build system.
+    $ lunch citrus_device-userdebug
+    $ mka lemonade

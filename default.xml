@@ -27,13 +27,21 @@
   <project path="build" name="build" remote="ctr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="external/DUtils" name="external_DUtils" remote="ctr" revision="ctr6.0" />
+  <project path="external/DUtils" name="external_DUtils" remote="ctr"  />
   <project path="frameworks/base" name="frameworks_base" remote="ctr" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr" />
   <project path="manifest" name="manifest" remote="ctr" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="ctr" />
   <project path="packages/apps/CitrusOTA" name="packages_apps_CitrusOTA" remote="ctr" />
   <project path="packages/apps/CitrusSettings" name="packages_apps_CitrusSettings" remote="ctr" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="ctr" revision="ctr6.0" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="ctr" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="ctr" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="ctr" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ctr" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="ctr" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="ctr" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ctr" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="ctr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ctr" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr"/>
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr"/>
@@ -41,7 +49,7 @@
   <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="ctr" />  
   <project path="vendor/citrus" name="vendor_citrus" remote="ctr" />
   <project name="Citrus-Seeds/OTA" path="OTA" remote="github" revision="ctr6.0" />
-  <!--CitrusCAF ENDS-->
+<!--CitrusCAF ENDS-->
 
 <!-- BEGIN AOSP-CAF -->
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
@@ -373,10 +381,6 @@
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
-  <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
-  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
@@ -387,18 +391,14 @@
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
-  <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
-  <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>

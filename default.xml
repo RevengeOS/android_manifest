@@ -44,6 +44,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="ctr" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="ctr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="ctr" />
+  <project path="packages/apps/InCallUI"  name="packages_apps_InCallUI" remote="ctr" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="ctr" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="ctr" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="ctr" />
@@ -391,7 +392,6 @@
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
   <project name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
-  <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>

@@ -22,17 +22,17 @@
            fetch="https://github.com/" />
 
   <!-- Citrus-CAF -->
+  <project name="art" path="art" remote="ctr" />
   <project name="build" path="build" remote="ctr">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="build_kati" path="build/kati" remote="ctr"/>
-  <project name="device_qcom_sepolicy" remote="ctr"/>
-  <project name="art" path="art" remote="ctr"/>
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr"/>
   <project name="bootable_recovery" path="bootable/recovery" remote="ctr"/>
   <project name="bionic" path="bionic" remote="ctr"/>
-  <project name="developers_build" path="developers/build" remote="ctr"/>
+  <project name="dalvik" path="dalvik" remote="ctr" />
   <project name="development" path="development" remote="ctr"/>
-  <project name="external_ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="ctr"/>
+  <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ctr"/>
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr"/>
   <project name="external_mm-dash" path="external/mm-dash" remote="ctr"/>
   <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
@@ -53,14 +53,16 @@
   <project name="hardware_ril" path="hardware/ril" remote="ctr"/>
   <project name="hardware_ril" path="hardware/ril-caf" revision="n7-caf" remote="ctr"/>
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr"/>
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc"  remote="ctr"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr"/>
   <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr"/>
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr"/>
-  <project name="system_core" path="system,core" remote="ctr"/>
-  <project name="system_extras" path="system_extras" remote="ctr"/>
-  <project name="system_sepolicy" path="system_sepolicy" remote="ctr"/>
-  <project name="system_vold" path="system_vold" remote="ctr"/>
+  <project name="system_bt" path="system/bt" remote="ctr"/>
+  <project name="system_core" path="system/core" remote="ctr"/>
+  <project name="system_extras" path="system/extras" remote="ctr"/>
+  <project name="system_sepolicy" path="system/sepolicy" remote="ctr"/>
+  <project name="system_vold" path="system/vold" remote="ctr"/>
   <project name="vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ctr"/>
   <project name="vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
   <!-- Citrus-CAF -->

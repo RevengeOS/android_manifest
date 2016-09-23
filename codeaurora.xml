@@ -14,6 +14,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
+  <project name="platform/developers/build" path="developers/build"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts"/>
   <project name="platform/developers/demos" path="developers/demos"/>
   <project name="platform/developers/samples/android" path="developers/samples/android"/>
@@ -317,7 +318,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
@@ -383,7 +383,6 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk"/>
-  <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates"/>
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client"/>

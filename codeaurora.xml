@@ -409,7 +409,6 @@
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager"/>
-  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service"/>

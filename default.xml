@@ -52,6 +52,7 @@
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n7-caf" remote="ctr"/>
   <project name="hardware_ril" path="hardware/ril" remote="ctr"/>
   <project name="hardware_ril" path="hardware/ril-caf" revision="n7-caf" remote="ctr"/>
+  <project name="manifest" path="manifest" remote="ctr"/>
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr"/>
   <project name="packages_apps_Nfc" path="packages/apps/Nfc"  remote="ctr"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>
@@ -61,8 +62,10 @@
   <project name="system_bt" path="system/bt" remote="ctr"/>
   <project name="system_core" path="system/core" remote="ctr"/>
   <project name="system_extras" path="system/extras" remote="ctr"/>
+  <project name="system_media" path="system/media" remote="ctr"/>
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr"/>
   <project name="system_vold" path="system/vold" remote="ctr"/>
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr"/>
   <project name="vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ctr"/>
   <project name="vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
   <!-- Citrus-CAF -->
@@ -77,20 +80,20 @@
   <project name="android_external_ffmpeg" path="external/ffmpeg" remote="cm"/>
   <project name="android_external_fsck_msdos" path="external/fsck_msdos" remote="cm"/>
   <project name="android_external_fuse" path="external/fuse" remote="cm"/>
-  <project name="android_external_htop" path="external/htop" remote="cm" />
-  <project name="android_external_libncurses" path="external/libncurses" remote="cm" />
-  <project name="android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" remote="cm" />
+  <project name="android_external_htop" path="external/htop" remote="cm"/>
+  <project name="android_external_libncurses" path="external/libncurses" remote="cm"/>
+  <project name="android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" remote="cm"/>
   <project name="android_external_mksh" path="external/mksh" remote="cm"/>
-  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="cm" />
-  <project name="android_external_openssh" path="external/openssh" remote="cm" />
-  <project name="android_external_rsync"  path="external/rsync" remote="cm" />
+  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="cm"/>
+  <project name="android_external_openssh" path="external/openssh" remote="cm"/>
+  <project name="android_external_rsync"  path="external/rsync" remote="cm"/>
   <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="cm"/>
   <project name="android_external_zlib" path="external/zlib" remote="cm"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" />
-  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm"/>
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm"/>
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm"/>
   <!-- END CYANOGENMOD -->
 
   <!-- Include Codeaurora Repo's from Seperate file -->

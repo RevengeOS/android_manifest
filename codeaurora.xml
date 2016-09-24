@@ -390,7 +390,6 @@
   <project name="platform/system/firewalld" path="system/firewalld"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
-  <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project name="platform/system/nativepower" path="system/nativepower"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/nvram" path="system/nvram"/>

@@ -12,7 +12,7 @@
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong">
     <linkfile dest="Android.bp" src="root.bp"/>
-    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>pac
   </project>
   <project name="platform/developers/build" path="developers/build"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts"/>
@@ -295,6 +295,7 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>

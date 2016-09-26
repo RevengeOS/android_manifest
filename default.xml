@@ -3,8 +3,7 @@
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org"
-           sync-c="true" />
+           review="codeaurora.org" />
   <default remote="caf"
            revision="refs/tags/LA.UM.5.6.r1-00300-89xx.0"
            sync-j="4" />
@@ -15,8 +14,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
-           revision="staging/cm-14.0"
-           sync-c="true" />
+           revision="staging/cm-14.0" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -98,5 +96,8 @@
 
   <!-- Include Codeaurora Repo's from Seperate file -->
   <include name="codeaurora.xml" />
+
+  <!-- Include Device Specific repo's -->
+  <include name="lemondrop.xml" />
 
 </manifest>

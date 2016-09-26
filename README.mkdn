@@ -1,5 +1,36 @@
 <img src="https://raw.githubusercontent.com/Citrus-CAF/manifest/m/citrus.png">
 =============
 
-Citrus-CAF
-===========
+Hey, I'm Citrus-CAF
+===================
+
+
+Getting Started
+---------------
+
+To get started with Citrus-CAF, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+
+To initialize your local repository, use this command:
+
+
+	repo init -u git://github.com/Citrus-CAF/manifest.git -b n7
+
+
+
+Time to sync up our shit! [I love this part]:
+
+	repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+Compiling the source!
+---------------------
+	. build/envsetup.sh
+	lunch citrus_device-userdebug
+	mka bacon
+
+Don't worry about the name! Yeah, we're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
+.
+.
+.
+JK!

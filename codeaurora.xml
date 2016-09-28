@@ -7,7 +7,6 @@
   <project groups="device,marlin" name="device/google/contexthub"/>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm-3.18"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong">

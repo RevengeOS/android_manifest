@@ -7,14 +7,14 @@
   <default remote="caf"
            revision="refs/tags/LA.UM.5.6.r1-00300-89xx.0"
            sync-j="4" />
-
+  
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
            revision="n7" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
-           revision="staging/cm-14.0" />
+           revision="cm-14.0" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -70,7 +70,7 @@
 
   <!-- BEGIN CYANOGENMOD -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm"/>
-  <project name="android_external_apache-http" path="external/apache-http" remote="cm"/>
+  <project name="android_external_apache-http" path="external/apache-http" remote="cm" revision="staging/cm-14.0"/>
   <project name="android_external_bash" path="external/bash" remote="cm"/>
   <project name="android_external_connectivity" path="external/connectivity" remote="cm"/>
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="cm"/>

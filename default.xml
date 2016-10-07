@@ -7,7 +7,7 @@
   <default remote="caf"
            revision="refs/tags/LA.UM.5.6.r1-00300-89xx.0"
            sync-j="4" />
-  
+
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
            revision="n7" />
@@ -56,6 +56,7 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr"/>
   <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr"/>
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr"/>
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr"/>
   <project name="system_bt" path="system/bt" remote="ctr"/>
   <project name="system_core" path="system/core" remote="ctr"/>

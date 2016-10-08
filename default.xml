@@ -73,6 +73,7 @@
 
   <!-- BEGIN CYANOGENMOD -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm"/>
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" />
   <project name="android_external_apache-http" path="external/apache-http" remote="cm" revision="staging/cm-14.0"/>
   <project name="android_external_bash" path="external/bash" remote="cm"/>
   <project name="android_external_connectivity" path="external/connectivity" remote="cm"/>

@@ -51,6 +51,7 @@
   <project name="hardware_ril" path="hardware/ril" remote="ctr"/>
   <project name="hardware_ril" path="hardware/ril-caf" revision="n-caf" remote="ctr"/>
   <project name="manifest" path="manifest" remote="ctr"/>
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr"/>
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr"/>
   <project name="packages_apps_Nfc" path="packages/apps/Nfc"  remote="ctr"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>

@@ -102,7 +102,10 @@
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm"/>
   <!-- END CYANOGENMOD -->
-
+  
+  <!-- Masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  
   <!-- Include Codeaurora Repo's from Seperate file -->
   <include name="codeaurora.xml" />
 

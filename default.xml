@@ -53,7 +53,10 @@
   <project name="manifest" path="manifest" remote="ctr"/>
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr"/>
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr"/>
+  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr"/>
+  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr"/>
   <project name="packages_apps_Nfc" path="packages/apps/Nfc"  remote="ctr"/>
+  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr"/>
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr"/>

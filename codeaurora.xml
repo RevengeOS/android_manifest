@@ -299,8 +299,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
-  <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
   <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera"/>
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
@@ -321,7 +319,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>

@@ -43,6 +43,7 @@
   <project name="frameworks_native" path="frameworks/native" remote="ctr"/>
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr"/>
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr"/>
+  <project name="frameworks_support" path="frameworks/support" remote="ctr"/>
   <project name="hardware_libhardware" path="hardware/libhardware" remote="ctr"/>
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr"/>
   <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-caf" remote="ctr"/>

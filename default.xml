@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.6.r1-00700-89xx.0"
+           revision="LA.BR.1.3.6_rb1.6"
            sync-j="4" />
 
   <remote  name="ctr"
@@ -103,10 +103,10 @@
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm"/>
   <!-- END CYANOGENMOD -->
-  
+
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
-  
+
   <!-- Include Codeaurora Repo's from Seperate file -->
   <include name="codeaurora.xml" />
 

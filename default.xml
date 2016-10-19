@@ -33,6 +33,7 @@
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ctr"/>
   <project name="external_DUtils" path="external/DUtils" remote="ctr"/>
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr"/>
+  <project name="external_flac" path="external/flac" remote="ctr"/>
   <project name="external_mm-dash" path="external/mm-dash" remote="ctr"/>
   <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
   <project name="external_skia" path="external/skia" remote="ctr"/>

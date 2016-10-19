@@ -31,6 +31,7 @@
   <project name="dalvik" path="dalvik" remote="ctr" />
   <project name="development" path="development" remote="ctr"/>
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ctr"/>
+  <project name="external_DUtils" path="external/DUtils" remote="ctr"/>
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr"/>
   <project name="external_mm-dash" path="external/mm-dash" remote="ctr"/>
   <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
@@ -56,6 +57,7 @@
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr"/>
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr"/>
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr"/>
+  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr"/>
   <project name="packages_apps_Nfc" path="packages/apps/Nfc"  remote="ctr"/>
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr"/>

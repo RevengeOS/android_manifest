@@ -522,4 +522,7 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="toolchain/binutils" revision="android-framework.lnx.2.0.r5-rel"/>
+
+  <!-- Include Citrus-CAF Additions -->
+  <include name="citrus-caf.xml" />
 </manifest>

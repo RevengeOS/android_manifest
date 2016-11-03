@@ -149,6 +149,7 @@
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
 	<remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
 
 </manifest>

@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="android-external.lnx.2.0.r5-rel"/>
+           revision="refs/tags/LA.UM.5.5.r1-01600-8x96.0"/>
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
@@ -18,8 +18,10 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
+  <remove-project name="platform/art" />
+  <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
-  <project path="build" name="build" remote="ctr" revision="n" >
+  <project path="build" name="build" remote="ctr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
@@ -29,16 +31,26 @@
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="ctr"/>
   <remove-project name="platform/development" />
-  <project name="development" path="development" remote="ctr" revision="n"/>
+  <project name="development" path="development" remote="ctr"/>
+  <remove-project name="device/qcom/common" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
+  <remove-project name="platform/vendor/qcom/thulium" />
+  <project name="device_qcom_msm8996" path="device/qcom/msm8996" remote="ctr" />
 
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
-  <remove-project name="platform/external/okhttp" />
-  <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr"/>
 
@@ -63,7 +75,8 @@
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
 
 <!-- Apps -->
-  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" revision="n" />
+  <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr" revision="n" />
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -80,11 +93,15 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
 
+<!-- Prebuilts -->
+ <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+ <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" />
+
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project name="packages_providers_MediaProvider" path="packages/providers/NediaProvider" remote="ctr" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr" />
 
@@ -112,18 +129,20 @@
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
-  <remove-project name="platform/vendor/qcom-opensource/dpm" />
-  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-caf" />
+
 <!-- End of Citrus-CAF Additions -->
 
 <!-- Include these repo's for better Compatibility -->
-  <remove-project name="device/qcom/common" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
   <remove-project name="device/qcom/sepolicy" />
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
   <remove-project name="platform/external/f2fs-tools" />
   <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.0"/>
+  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.0" />
+  <remove-project name="platform/external/flac" />
+  <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
+  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
   <remove-project name="platform/external/zlib"  />
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
@@ -158,10 +177,8 @@
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.18"/>
-  <remove-project name="kernel/lk"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
-  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>

@@ -15,7 +15,7 @@ To get started with Citrus-CAF, you'll need to get familiar with
 To initialize your local repository, use this command:
 
 
-	repo init -u git://github.com/Citrus-CAF/manifest.git -b n
+repo init -u git://github.com/Citrus-CAF/manifest.git -b n-8996 -m citrus-caf.xml
 
 
 

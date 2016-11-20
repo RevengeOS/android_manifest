@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  fetch="git://codeaurora.org/quic/la"
-           name="caf"
-           review="codeaurora.org"/>
-  <default remote="caf"
-           revision="android-external.lnx.2.0.r5-rel"/>
-
-  <remote  name="ctr"
-           fetch="https://github.com/Citrus-CAF"
-           revision="n-8996" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
 
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/arm64" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -523,6 +511,5 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="toolchain/binutils" revision="android-framework.lnx.2.0.r5-rel"/>
 
-  <!-- Include Citrus-CAF Additions -->
-  <include name="citrus-caf.xml" />
+
 </manifest>

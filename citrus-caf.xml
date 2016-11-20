@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  fetch="git://codeaurora.org/quic/la"
+           name="caf"
+           review="codeaurora.org"/>
+  <default remote="caf"
+           revision="android-external.lnx.2.0.r5-rel"/>
+
+  <remote  name="ctr"
+           fetch="https://github.com/Citrus-CAF"
+           revision="n-8996" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Repo's to sync from CODEAURORA -->
+  <include name="codeaurora.xml" />
+
 <!-- Begin Citrus-CAF Additions -->
   <remove-project name="platform/build" />
   <project path="build" name="build" remote="ctr" revision="n" >

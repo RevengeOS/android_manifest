@@ -511,5 +511,4 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="toolchain/binutils" revision="android-framework.lnx.2.0.r5-rel"/>
 
-
 </manifest>

@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.5.r1-01800-8x96.0"/>
+           revision="refs/tags/LA.UM.5.5.r1-02200-8x96.0"/>
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
@@ -42,11 +42,11 @@
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
   <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-caf" />
+  <project path="external/jemalloc" name="external_jemalloc" remote="ctr" revision="n" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-caf" />
+  <project path="external/libpng" name="external_libpng" remote="ctr" revision="n" />
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/sqlite" />
@@ -92,6 +92,8 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
 
@@ -137,18 +139,18 @@
 
 <!-- Include these repo's for better Compatibility -->
   <remove-project name="device/qcom/sepolicy" />
-  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/f2fs-tools" />
-  <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/flac" />
-  <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
   <remove-project  name="platform/packages/apps/FMRadio" />
-  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
 
 <!--  HALS -->
   <remove-project name="platform/hardware/qcom/audio" />

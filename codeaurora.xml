@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- CODEAURORA -->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="48c94d0b2799f334e3a7d301100480deb2770cfb" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/arm64" revision="20fcdc082d1bfa8d183170a19d141c33270bf381" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="d5201bf6d38b1b411a4e4365a4f7ed423d5975e4" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -17,17 +18,17 @@
   <project groups="device,pdk" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" revision="c7fb0790d0503ffd902d720cfe9b44acf7f2a5bb" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="device,marlin" name="device/google/contexthub" revision="0c7573f681eecc7b2cbfeaab82a1295451458dc8" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project name="device/qcom/common" revision="cb2a60aae7efb8d70f3fdc12abd2a2436e6cb8d3" upstream="qcom-devices.lnx.1.0.r5-rel">
+  <project name="device/qcom/common" revision="2cd557e750257a1b1e5dcb5156ada454840f72d6" upstream="qcom-devices.lnx.1.0.r5-rel">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
-  <project name="device/qcom/sepolicy" revision="b91b77e96127c3c55dd298484b4daaf671da22f9" upstream="sepolicy.lnx.2.0.r5-rel"/>
+  <project name="device/qcom/sepolicy" revision="d891dafd4dd4743e2100e9002bfd7eea4a1f75b6" upstream="sepolicy.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/sample" revision="49cc6708758dbaadead1e5726c72dd9f6748ce9f" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk" revision="0978dbc4e6f2fac46bc360081f58c07a42351353" upstream="lk.lnx.1.0.r5-rel"/>
-  <project name="kernel/msm-3.18" revision="dcef5b034226b6dafcafe16fd531aff8ac30c259" upstream="rel/msm-3.18.r5"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="ddffdd15541a203840df8488fc802326cee16f76" upstream="lk.lnx.1.0.r5-rel"/>
+  <project name="kernel/msm-3.18" revision="1af0d6b2aa63cd65b40bed19d4b30a4a8256d111" upstream="rel/msm-3.18.r5"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="38c9d7cb7e06bed496ca884ee86fb44fa7476f82" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/bionic" path="bionic" revision="ef0d2640178b1ce1aa7bb8e9cc3ff2fff7ed3ed3" upstream="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/bionic" path="bionic" revision="6f3061ef5fb2bd43ca842a288cefdb92dfad91d2" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="9b862fdb60b89189f5485fcc1d86415203b7da23" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/build" path="build" revision="ba05677aa5f349c8078161f57a83a3dcbc12ad6f" upstream="android-framework.lnx.2.0.r5-rel">
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -293,7 +294,7 @@
   <project groups="pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="2bab539566f7a3423cc874a0b2e52f08e45df930" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="6d2d4a29a7aa2b38eda7c26ed45c7bfcb06da77a" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="b3cb8ab4ede8bb77f0bdef2715efc2c1e6267072" upstream="android-external.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="3f1d8cac7d26f8abf6806a2dfeb6c2d45aef05c7" upstream="wlan-aosp-service.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="8e5425b9e3135ac120249749be601245e4d12fdb" upstream="wlan-aosp-service.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/external/xmlrpcpp" path="external/xmlrpcpp" revision="1d7192fe0d2f788f8f150899c58b86c5ff10456a" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" upstream="android-external.lnx.2.0.r5-rel"/>
@@ -301,7 +302,7 @@
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="90d2eb9b19b76b8f8b2c85a265b57e40b559466a" upstream="av-aosp.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="f7384266edbc6aac66f1852693fc8254b7a90749" upstream="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="426268d3e3d28cac4d31fd3c52560781592583a7" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="f4f8b80f6b9c281da6f2f87f51f77e48327fa92b" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="799a521cf9be5ff77ddaeb603c5a064e860bfab1" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -310,7 +311,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="4733cb9b5353fd5f3e8adada6ef031dbeb093b81" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="13223cca22c388bf9c4941fca3c92c5acfe73650" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="e3290b72e07df5b818eb7a7181763e4c1dfebdd6" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="26bc55e8e0e018e70ff06f66ab916f732e2f0b02" upstream="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="973e5da7d8d614aeef529ba9535b520fc4ffebd4" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="7b55edea45ee5e5447ef8afaa6b144b698ba6f49" upstream="bt.lnx.2.1.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -341,20 +342,20 @@
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="1cd2b91506d2398677c4cb110266132ebcc8384c" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="d4400e424740e0b6f008c04ebaa0f7996956e897" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="85674fb25b32d6b5744fa433fc33eefd086b5808" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="38b4c8939311fd6c9a229670710012e596aaae0a" upstream="refs/heads/audio-userspace.lnx.2.1.r5-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="7e4997f8d58449a8ebfe4e28f6f3a8a217a0f03b" upstream="refs/heads/audio-userspace.lnx.2.1.r5-rel"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2aa691bedb0282d9c4f2e7626fecad1026939d7e" upstream="android-blast.lnx.1.1.r5-rel"/>
   <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="9c2dfaa8d8f758e75e8c3b191eccec745234187c" upstream="bt.lnx.2.1.r5-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="d2759b58154c2c1c09b2435280b9f68a8e544be0" upstream="refs/heads/camera.lnx.1.0.r5-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="15998aff54cdb665400b0b2387092989e65b7dd7" upstream="display.lnx.3.0.r5-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="5123184d48e8b12187ef740ee563b139ffa063d4" upstream="refs/heads/camera.lnx.1.0.r5-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="4fb24a278ea7d0380065d9275b38f4d45e501c14" upstream="display.lnx.3.0.r5-rel"/>
   <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="67b47ca345673096afb454c426e2de69814161e0" upstream="location.lnx.2.0.r5-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="bc308ebe61e9bf929faae8ed936831a675ebe1de" upstream="refs/heads/video-userspace.lnx.2.1.r5-rel"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="0304c33c4c6c6a79bd37e60e33f6a130123fdab5" upstream="refs/heads/video-userspace.lnx.2.1.r5-rel"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8ab0c49f431c7a22ce5abba80865dc38b9965d0f" upstream="wlan-aosp.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="5fc4458acabc2e52faa2ad0335019e2da980b4f9" upstream="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="655be22d10ef9f8d0f79bae9e539ad4fba022dc4" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="ff4323214ea24e67cdbd4a7f2445af48d90da342" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk" revision="f255acd92116b49634093282def8801e7b5e3261" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="2be2de8a77c1afd4b23a5fdfb5acf16541c6670f" upstream="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="c401c3554ae57d5a34b68f7949edbc82acab179f" upstream="bt.lnx.2.1.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="922832a578a427ccd0803ec9760001b7ee72ffc1" upstream="bt.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="6a99cd0006d9473c343dda8ae892fba745fa08b3" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="d2da6c7f9830254ca9bc408967b49a132ffdffca" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="c45fbd49aaa18e310d2fe1166343160e3d2a86d3" upstream="android_ui.lnx.2.1.r5-rel"/>
@@ -364,12 +365,12 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="9cbf389aa69e36f4ccaf981a8eab0a10c84651b2" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="c9802b588285428f9f2225b3eb4019b91f898f60" upstream="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="fa57c3097009fb9ed36ef476922d0803831620b6" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="479536020db37bb13f9d168839bf07b5729f8331" upstream="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" revision="56753d5794185c30c572f9b669df240a35ab2151" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="f30a1046dc962f34c016ac4a660a28ae7e28d009" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" revision="2ffa3a34167622ea4a0a0fee37f137ec6d64d7f3" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="98cc81bb5ef7ed23d375cce428c64dc2013c1cf8" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="876860c1b363c466f50d4179d8ce6791b117ec75" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="8366d83cc8430e5ff4841ac335348b695e78fe2c" upstream="atel.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="bef43fddf5fbe8131eb016546670e49b1a079607" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="dfe196f8b6304a8673b2bffe755d778ff5789f32" upstream="atel.lnx.2.0.r5-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="b6e0db76b5f35c45ddbb1b110c4f2e22c5da92be" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="b962c8a25d6b9e42b02490e3b2d6c0ce9eb40988" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="f49b33d794bdf335bb8c7deddf68600a3ec33aa8" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c9feb64680b495bda12f1006e23bb829ef05dcc9" upstream="android_ui.lnx.2.1.r5-rel"/>
@@ -383,7 +384,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="996546fcf4058d98d9aceecb4086283e17ae6c9d" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="b30a0c633e3c3677b284ccc677b9e29397fcdccb" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="74bad7b51484365268e87af615c7300f96ca0e0a" upstream="android_ui.lnx.2.1.r5-rel"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="bc04e3c2678f70aaaf9579c5290fb5b51f7afa19" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="694cdf0074cb3da99a6ff3767062398d1419e476" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" revision="4e5de3c1043ee2f61bf8358ca4d45d82d646d7c3" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="8b495e4f794eb9e62c887bde6e0b2ac0806ab52f" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="b413e422db30b7f7e3699c2a282e1e5add835399" upstream="nfc-aosp.lnx.2.0.r5-rel"/>
@@ -395,16 +396,16 @@
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="fa3a4cad00577400ee3537f63efaeed40e8a0076" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="144ae0e61d6c078b391417d099aabb7e07c45807" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="b1da14d3684714d43b0dcb9463c0c495e3d6ffa3" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="8ca39e6a688929e0e09d3251279cd204b58a8e01" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="11b2730d2e490ba2aea403dfd0771fc33638c7ac" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="nfc-aosp.lnx.2.0.r5-rel"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="ae62b8af4f19b58ede1d850c2c3a66892509e208" upstream="refs/heads/camera.lnx.1.0.r5-rel"/>
-  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" revision="5f81791904da3b9003ea5a8e0b5c33719eab01aa" upstream="android_ui.lnx.2.1.r5-rel"/>
+  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="722f52dfe195036e0e4c0f8ff3b4053a1bbb56dd" upstream="refs/heads/camera.lnx.1.0.r5-rel"/>
+  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" revision="300605904f34f5ec4c567175326eae4edca8a4c0" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher" revision="f65853baa8a2a73875738f27fda61bfa87ded4d2" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" revision="a520e48c1ee4f824881cb28bf8f4600cb8cd3a67" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="79eeb43d52b3179558edd27e5e644ede9d5f61a0" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="51cc8462c082a26810f5d7c5a2648232a77e795c" upstream="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="194991902bcc4bd379b3196c1cfd935e028a38cc" upstream="atel.lnx.2.0.r5-rel"/>
+  <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="6222be47718ab9bf68e285cee757c57124dfc8e3" upstream="atel.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="a83242b2c5f653c1cc956bda59410b84d5a89a7e" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV" revision="f3ddd197653e536d9d0c4b47de4fe1d6d9207fa9" upstream="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="7f427c090c272962a051b457a09e85daa444c006" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -433,8 +434,8 @@
   <project groups="pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="adp8064,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="e5504f2127a7df1cb86df97dc27ad4d8ea93c6a9" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="dea32500a2fa98278b05c3933d9deda918be4988" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="ffd6821142279f531c8cf4ffdb961b5886c830ef" upstream="atel.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="6cf6c990d1be34c39b308d1504ad98fbb4633e28" upstream="atel.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="d89ea8e9a3a60985de0fd93a765fd021c3ed8134" upstream="atel.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="247558c4796e7aa7c866c1453816598f6b1d5431" upstream="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="78f6237b37c829c54e456f3f782ee564ad15b462" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="708589163e790eb3a7fec09f4832a0f78999bdf3" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="8237a658b30257acc4faedefc09596b1fde6ff9d" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -465,7 +466,7 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="e77dc3c66cafbb1b103885c870e830eab6309928" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="32e0c40a6485eb687bbf84acc1b13b98f1f1f7a6" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/system/bt" path="system/bt" revision="da59cd35363bc0394c975fab875d932e24589d16" upstream="bt.lnx.2.1.r5-rel"/>
+  <project groups="pdk" name="platform/system/bt" path="system/bt" revision="82e55efe45a9a2a6e132135150c457db7fc4e2f2" upstream="bt.lnx.2.1.r5-rel"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="5c88275cf2e04444b27413111715bc8c49acd0fd" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" revision="091f291b5a1c6bf3f88257525766b5ca52adc5c1" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" revision="c67e5219a3efb284d87109ab7f92afaeeb7533a4" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -477,7 +478,7 @@
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="5c733cf77a1ee79bcfa35ecb1e0ffd709033f2ca" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="bb88abc3e9a9c2d03273832246460e87d860dc1f" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/nativepower" path="system/nativepower" revision="70d55adbe30ccab9ce54ee782aa80724ad27862b" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/system/netd" path="system/netd" revision="42772f94333bbc7dd11ca923cedd185cab6ac91d" upstream="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd" revision="ffd1a88734889519d72cf1bb66e890826e6ef22b" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/nvram" path="system/nvram" revision="c8e2b037667539ddbde0a0a782b8258964ca4fce" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="f4e6d190704cdcdf3b864efd764a164cac0c3c28" upstream="wlan-service.lnx.1.1.r5-rel"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="9e0d088591c891cf4a5c2c25ed46b3a56c89f421" upstream="android-framework.lnx.2.0.r5-rel"/>
@@ -491,7 +492,7 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="ccb5f37901195e87368e34aa85e2237254020d03" upstream="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="f706f864f287f20ccb9f03cc04a5496c09204feb" upstream="android-framework.lnx.2.0.r5-rel"/>
-  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" revision="78af1666d6c7009d90244859ba6d40aad2b7f78d" upstream="atel.lnx.2.0.r5-rel"/>
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" revision="58b6e2f721d3479b738178a59351cb46c568a07f" upstream="atel.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="9895ee467427b8bb1e0f36b66d7569bcec8c20f5" upstream="nfc.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" revision="72a393e248b0dd31a2c473a3b914420e7e492b77" upstream="nfc.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="6b8bcaf7424b968a23066fea9223c80595f612fe" upstream="nfc.lnx.2.0.r5-rel"/>
@@ -508,14 +509,14 @@
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="214ece874ced71fcbeb2fbc0a218b0824be60c34" upstream="data.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="dfab2a8b0418966421160512bfb18ec57b20159f" upstream="core-technologies.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="621f112de4c7583b60bebfc71986746d69bf33d6" upstream="opensource-tools.lnx.1.0.r5-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="ed1430ebba4e4ec5ae909fe2c45766452513396f" upstream="wlan-driver.lnx.1.0.r5-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="vendor/qcom/opensource/wlan/qcacld-2.0" revision="8405154802763d5041b24f77b1a0f7771ff9054b" upstream="refs/heads/wlan-cld2.driver.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="ad94383ebc060018502f10385c1292910e582f5a" upstream="wlan-driver.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="vendor/qcom/opensource/wlan/qcacld-2.0" revision="b163faab006aa9ccf30a759e8731ae65b2010166" upstream="refs/heads/wlan-cld2.driver.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="3074f53483456cb9f499d4eadaed9371adfb254d" upstream="wlan-service.lnx.1.1.r5-rel"/>
   <project name="platform/vendor/qcom/cobalt" path="device/qcom/msmcobalt" revision="cc9860ef39e38cd4d14723226306a5ec14bfe0bc" upstream="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom/thorium_32" path="device/qcom/msm8937_32" revision="785db99972d6c0697f49aa96fa57048498be00ac" upstream="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom/thorium_64" path="device/qcom/msm8937_64" revision="cd82c489f55489506d5a27b811c3dc4bd4c4d8e1" upstream="qcom-devices.lnx.1.0.r5-rel"/>
-  <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="8d1db34db1195ee4057b90dea4f62841746d90df" upstream="qcom-devices.lnx.1.0.r5-rel"/>
-  <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="d80d8346b926fc2a2568524e39c83aefa71c4b41" upstream="qcom-devices.lnx.1.0.r5-rel"/>
-  <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="be57af8a3e08c226299387e5505f0166d5f08dc5" upstream="qcom-devices.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="27a3fd5fefb1781fdf2f4753c76c6cb4d3692080" upstream="qcom-devices.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="470057a62b140d9d8c2738d5a3ed7a824789bff2" upstream="qcom-devices.lnx.1.0.r5-rel"/>
+  <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="44a7a9bb08df5352efb00786e5a80214d5215fe9" upstream="qcom-devices.lnx.1.0.r5-rel"/>
   <project name="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="android-framework.lnx.2.0.r5-rel"/>
 </manifest>

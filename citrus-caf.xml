@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.5.r1-02800-8x96.0"/>
+           revision="refs/tags/LA.UM.5.5.r1-03400-8x96.0"/>
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
@@ -77,6 +77,8 @@
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/Dialer/" />
+  <project-path name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n" /> 
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
@@ -149,7 +151,7 @@
   <remove-project name="platform/external/flac" />
   <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
   <remove-project name="platform/external/fsck_msdos" />
-  <project name="LineageOS/android_external_fsck_msdos" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos"  remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
@@ -194,7 +196,7 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
-  <remove-project name="platform/vebdor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>

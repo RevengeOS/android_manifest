@@ -27,11 +27,11 @@
   <remove-project name="platform/build/kati" />
   <project name="build_kati" path="build/kati" remote="ctr" revision="n"/>
   <remove-project name="platform/bootable/recovery" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="ctr"/>
+  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n" />
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="ctr"/>
   <remove-project name="platform/development" />
-  <project name="development" path="development" remote="ctr"/>
+  <project name="development" path="development" remote="ctr" revision="n" />
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
   <remove-project name="platform/vendor/qcom/thulium" />
@@ -40,7 +40,7 @@
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
-  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
+  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n"/>
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -77,9 +77,15 @@
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
-  <remove-project name="platform/packages/apps/Dialer/" />
-  <project-path name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n" /> 
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project-path name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/FMRadio" />
+  <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
+  <remove-project  name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
@@ -89,6 +95,8 @@
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -110,18 +118,20 @@
   <remove-project name="platform/system/core" />
   <project name="system_core" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />
-  <project name="system_extras" path="system/extras" remote="ctr" />
+  <project name="system_extras" path="system/extras" remote="ctr" revision="n"  />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="ctr" />
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/vold" />
-  <project name="system_vold" path="system/vold" remote="ctr" />
+  <project name="system_vold" path="system/vold" remote="ctr" revision="n" />
 
 <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
+  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" revision="n" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
+  <project name="vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="ctr" revision="n" />
 
 <!-- End of Citrus-CAF Additions -->
 
@@ -133,7 +143,7 @@
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr1" />  
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-mr1"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -144,7 +154,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="cm-14.1" /> 
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/f2fs-tools" />
   <project name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
@@ -152,12 +162,11 @@
   <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos"  remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
-  <remove-project  name="platform/packages/apps/FMRadio" />
-  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
 <!-- Omni -->
@@ -172,7 +181,7 @@
   <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
 <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" />
 
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
@@ -191,12 +200,10 @@
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.18"/>
-  <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
-  <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>

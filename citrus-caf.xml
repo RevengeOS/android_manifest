@@ -38,6 +38,8 @@
   <project name="device_qcom_msm8996" path="device/qcom/msm8996" remote="ctr" />
 
 <!-- External -->
+  <remove-project name="platform/external/boringssl" />
+  <project name="external_boringssl" path="external/boringssl" remote="ctr" revision="n"/>
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n"/>
@@ -86,6 +88,8 @@
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
   <remove-project  name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n" />
+    <remove-project  name="platform/packages/apps/Messaging" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />

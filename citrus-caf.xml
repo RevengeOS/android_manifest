@@ -91,6 +91,8 @@
   <remove-project  name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -205,7 +207,7 @@
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.18"/>
   <remove-project name="platform/hardware/qcom/gps"/>
-  <remove-project name="platform/hardware/qcom/Camera"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>

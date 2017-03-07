@@ -80,7 +80,7 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <project-path name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n" />
@@ -88,7 +88,7 @@
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
   <remove-project  name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n" />
-    <remove-project  name="platform/packages/apps/Messaging" />
+  <remove-project  name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
@@ -184,8 +184,8 @@
   <remove-project name="platform/hardware/qcom/media" />
   <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
-<!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" />
+<!-- Substratum Interfacer -->
+  <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
@@ -205,6 +205,7 @@
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.18"/>
   <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/hardware/qcom/Camera"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>

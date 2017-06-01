@@ -18,10 +18,8 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
-  <remove-project name="platform/art" />
-  <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
-  <project path="build" name="build" remote="ctr" >
+  <project path="build" name="build" remote="ctr" revision="n7x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
@@ -83,7 +81,7 @@
 
 <!-- Apps -->
   <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr" revision="n" />
-  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -145,7 +143,7 @@
   <project name="system_vold" path="system/vold" remote="ctr" />
 
 <!-- Vendor -->
-  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
@@ -153,9 +151,9 @@
 
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project name="prebuilt_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" />
+  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-android-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="ctr" />
+  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="ctr" />
 
 <!-- End of Citrus-CAF Additions -->
 

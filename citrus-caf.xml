@@ -137,6 +137,8 @@
   <project name="system_extras" path="system/extras" remote="ctr" revision="n7x"  />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="ctr" revision="n7x" />
+  <remove-project name="platform/system/netd" />
+  <project name="system_netd" path="system/netd" remote="ctr" revision="n7x" />
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/vold" />

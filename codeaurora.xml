@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--CODEAURORA-->
+<!--CODEAURORA-->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/arm64" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="android-framework.lnx.2.0.r5-rel"/>

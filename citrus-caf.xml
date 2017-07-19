@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.5.r1-05100-8x96.0"/>
+           revision="refs/tags/LA.UM.5.5.r1-05300-8x96.0"/>
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
@@ -89,7 +89,7 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n7x" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n7x-8996" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n7x" />

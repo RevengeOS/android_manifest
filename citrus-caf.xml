@@ -18,6 +18,8 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
+  <remove-project name="platform/art" />
+  <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
   <project path="build" name="build" remote="ctr" revision="n7x" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -34,6 +36,8 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" revision="n7x" />
   <remove-project name="platform/vendor/qcom/thulium" />
   <project name="device_qcom_msm8996" path="device/qcom/msm8996" remote="ctr" />
+  <remove-project name="platform/libcore" />
+  <project name="libcore" path="libcore" remote="ctr" revision="n7x" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
@@ -105,11 +109,6 @@
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
-  <remove-project name="platform/packages/apps/SnapdragonGallery" />
-  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="n" />
-  <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n7x" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws"  remote="ctr" revision="n7x" />
@@ -159,6 +158,13 @@
 
 <!-- End of Citrus-CAF Additions -->
 
+  <!-- FlashROM -->
+  <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/prebuilts/misc" />
+  <project name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
+
 <!-- LineageOS -->
   <remove-project name="device/qcom/sepolicy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
@@ -193,11 +199,24 @@
   <remove-project name="device/generic/qemu"/>
   <remove-project name="device/generic/x86"/>
   <remove-project name="device/generic/x86_64"/>
+  <remove-project name="device/google/accessory/arduino"/>
+  <remove-project name="device/google/accessory/demokit"/>
+  <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/contexthub"/>
   <remove-project name="device/sample"/>
+  <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-3.18"/>
   <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/packages/apps/Calculator" />
+  <remove-project name="platform/packages/apps/Camera" />
+  <remove-project name="platform/packages/apps/CMFileManager"/>
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Launcher2"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>

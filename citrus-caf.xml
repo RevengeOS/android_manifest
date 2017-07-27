@@ -99,6 +99,8 @@
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n7x" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" revision="n7x" />
   <remove-project  name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n7x" />
   <remove-project  name="platform/packages/apps/Messaging" />

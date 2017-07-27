@@ -187,7 +187,7 @@
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
 <!-- Substratum Interfacer -->
-  <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/apps/interfacer" name="interfacer" remote="ctr" revision="n-rootless" /> 
 
 <!-- Remove this bloats -->
   <remove-project name="device/generic/arm64"/>

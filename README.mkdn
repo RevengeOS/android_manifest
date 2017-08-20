@@ -1,7 +1,6 @@
 <img src="https://raw.githubusercontent.com/Citrus-CAF/manifest/m/citrus.png">
-=============
 
-Hey, I'm Citrus-CAF
+Howdy, We're Citrus-CAF
 ===================
 
 
@@ -12,10 +11,10 @@ To get started with Citrus-CAF, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
-To initialize your local repository, use this command:
+To initialize your local repository for MSM8996 device, use this command:
 
 
-repo init -u git://github.com/Citrus-CAF/manifest.git -b n7x-8996 -m citrus-caf.xml
+	repo init -u git://github.com/Citrus-CAF/manifest.git -b n7x-8996 -m citrus-caf.xml
 
 
 
@@ -29,7 +28,7 @@ Compiling the source!
 	lunch citrus_$device-userdebug
 	mka lemonade -j#
 
-Don't worry about the name! Yeah, we're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
+Don't worry about the name! We're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
 .
 .
 .

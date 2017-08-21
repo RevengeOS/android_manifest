@@ -95,7 +95,7 @@
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n7x" />
   <project name="packages_apps_CTRWalls" path="packages/apps/CTRWalls" remote="ctr" revision="n7x" /> 
   <remove-project name="platform/packages/apps/Dialer" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n7x-8996" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <project name="packages_apps_DSPManager" path="packages/apps/DSPManager" remote="ctr" revision="n7x" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
@@ -116,7 +116,7 @@
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" revision="n7x-8996" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/Stk" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />

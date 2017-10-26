@@ -271,7 +271,7 @@
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
   <project groups="pdk" name="platform/external/srtp" path="external/srtp"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace"/>
-  <project groups="pdk" name="platform/external/svox" path="external/svox"/>
+  <project groups="pdk" name="platform/external/svox" path="external/svox" revision="refs/tags/android-n-mr2-preview-2"/>
   <project groups="pdk" name="platform/external/tagsoup" path="external/tagsoup"/>
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump"/>
   <project groups="pdk" name="platform/external/testng" path="external/testng"/>

@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.5.r1-05800-8x96.0"/>
+           revision="refs/tags/LA.UM.5.5.r1-06300-8x96.0"/>
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
@@ -60,7 +60,7 @@
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/sonivox" />
-  <project name="external_sonivox" path="external/sonivox" remote="ctr"/>
+  <project name="external_sonivox" path="external/sonivox" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/tremolo" />
   <project name="external_tremolo" path="external/tremolo" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -74,7 +74,7 @@
   <remove-project name="platform/frameworks/base" />
   <project name="frameworks_base" path="frameworks/base" remote="ctr"/>
   <remove-project name="platform/frameworks/minikin" />
-  <project name="frameworks_minikin" path="frameworks/minikin" remote="ctr"/>
+  <project name="frameworks_minikin" path="frameworks/minikin" remote="ctr" revision="n7x"/>
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr"/>
   <remove-project name="platform/frameworks/opt/telephony" />

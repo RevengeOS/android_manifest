@@ -16,6 +16,8 @@
 
   <!-- Repo's to sync from CODEAURORA -->
   <include name="codeaurora.xml" />
+  <!-- Repo's to sync for hals -->
+  <include name="hals.xml" />
   <!-- Remove redudant repo's -->
   <include name="remove.xml" />
 
@@ -78,14 +80,8 @@
   <project name="hardware_libhardware" path="hardware/libhardware" remote="ctr" />
   <remove-project name="platform/hardware/ril" />
   <project name="hardware_ril" path="hardware/ril" remote="ctr" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio/default" remote="ctr" />
   <remove-project name="platform/hardware/qcom/bt" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/default" remote="ctr" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/default" remote="ctr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
   

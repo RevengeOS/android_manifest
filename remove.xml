@@ -23,7 +23,10 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/msm-4.4" />
+  <remove-project name="platform/hardware/qcom/audio" /> 
   <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />  
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/CMFileManager" />
   <remove-project name="platform/packages/apps/Gallery" />

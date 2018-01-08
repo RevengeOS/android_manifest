@@ -20,7 +20,6 @@
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/qcom/common" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/msm-4.4" />
   <remove-project name="platform/hardware/qcom/audio" /> 

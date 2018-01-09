@@ -127,7 +127,8 @@
   <project name="system_nfc" path="system/nfc" remote="ctr" />-->
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="ctr" />
-  <project name="system_qcom" path="vendor/qcom/opensource/softap" remote="ctr" />
+  <remove-project name="platform/system/qcom" />
+  <project name="vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="ctr" />
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/vold" />

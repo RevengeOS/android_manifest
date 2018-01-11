@@ -57,6 +57,7 @@
   <!-- External -->
   <project name="Cardinal-AOSP/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="oreo-mr1" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.0" />
+  <project name="external_DUtils" path="external/DUtils" remote="ctr" />
   <!--<remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />-->
   <project name="Cardinal-AOSP/external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="oreo-mr1" />   
@@ -89,6 +90,7 @@
   <project name="manifest" path="manifest" remote="ctr" />
 
   <!-- Apps -->
+ 
   <!--<remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -107,6 +109,7 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />-->
+  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
 

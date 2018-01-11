@@ -111,6 +111,8 @@
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />

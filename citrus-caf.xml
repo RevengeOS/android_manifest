@@ -90,19 +90,18 @@
   <project name="manifest" path="manifest" remote="ctr" />
 
   <!-- Apps -->
- 
-  <!--<remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
-  <remove-project name="platform/packages/apps/Calendar" />
+  <!--<remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /> -->
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />  
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" />
+  <!--<remove-project name="platform/packages/apps/DeskClock" />
+  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
-  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <!--<remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -114,8 +113,8 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
 
   <!-- Providers -->
-  <!--<remove-project name="platform/packages/providers/DownloadProvider" />
-  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />-->
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" />
 

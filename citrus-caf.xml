@@ -101,13 +101,13 @@
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
-  <!--<remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" />
-  <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" />
+  <!--<project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" />
   <remove-project name="platform/packages/apps/Gallery2" />
-  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" />
+  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />-->
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />

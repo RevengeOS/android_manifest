@@ -110,6 +110,7 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
@@ -143,7 +144,7 @@
   <project name="system_vold" path="system/vold" remote="ctr" />
 
   <!-- Services -->
-  <!--<project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" />-->
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" />
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
   <remove-project name="platform/packages/services/Telecomm" />

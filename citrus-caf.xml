@@ -49,9 +49,9 @@
   </project>
 
   <!-- qc-common & qc-sepolicy -->
-  <!--<remove-project name="device/qcom/common" />  
+  <remove-project name="device/qcom/common" />  
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
-  <remove-project name="device/qcom/sepolicy" />    
+  <!--<remove-project name="device/qcom/sepolicy" />    
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />-->
 
   <!-- External -->

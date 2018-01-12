@@ -51,8 +51,8 @@
   <!-- qc-common & qc-sepolicy -->
   <remove-project name="device/qcom/common" />  
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
-  <!--<remove-project name="device/qcom/sepolicy" />    
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />-->
+  <remove-project name="device/qcom/sepolicy" />    
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />
 
   <!-- External -->
   <project name="Cardinal-AOSP/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="oreo-mr1" />
@@ -77,6 +77,8 @@
   <project name="frameworks_support" path="frameworks/support" remote="ctr" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" /> 
+  <project name="hardware_interfaces" path="hardware/interfaces" remote="ctr" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="ctr" />
   <remove-project name="platform/hardware/ril" />
@@ -141,6 +143,7 @@
   <project name="system_vold" path="system/vold" remote="ctr" />
 
   <!-- Services -->
+  <!--<project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" />-->
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
   <remove-project name="platform/packages/services/Telecomm" />

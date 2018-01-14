@@ -2,6 +2,10 @@
 <manifest>
 
 <!--  HALS -->
+<!-- GPS -->
+<remove-project name="platform/hardware/qcom/gps" /> 
+<project name="hardware_qcom_gps" path="hardware/qcom/gps" revision="o8x" remote="ctr" /> 
+
 <!-- MSM8916 -->
 <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8916" revision="o8x-8916" remote="ctr" /> 
 <project name="hardware_qcom_display" path="hardware/qcom/display/msm8916" revision="o8x-8916" remote="ctr" />

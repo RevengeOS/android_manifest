@@ -164,4 +164,72 @@
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />
 -->
+
+<!-- qcom-prebuilts -->
+
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="platform/external/chromium-webview" path="external/chromium-webview" revision="refs/heads/android-external.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/build-tools" />
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/checkcolor" />
+  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/checkstyle" />
+  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/deqp" />
+  <project name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/devtools" />
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gdb/linux-x86" />
+  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
+  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/jdk/jdk8" />
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/libs/libedit" />
+  <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/maven_repo/android" />
+  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/maven_repo/bumptech" />
+  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/misc" />
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/ndk" />
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+
 </manifest>

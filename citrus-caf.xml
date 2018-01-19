@@ -99,6 +99,7 @@
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
   <!--<remove-project name="platform/packages/apps/Camera2" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /> -->
+  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />  
   <!--<remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /> -->

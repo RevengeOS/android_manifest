@@ -156,6 +156,8 @@
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="ctr" />
+  <remove-project name="platform/vendor/qcom/opensource/dpm" />
+  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr" />
 
 <!-- Citrus-CAF end -->
 

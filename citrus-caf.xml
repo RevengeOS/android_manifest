@@ -122,6 +122,8 @@
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -136,8 +138,8 @@
   <project name="system_core" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />
   <project name="system_extras" path="system/extras" remote="ctr" />
-  <!--<remove-project name="platform/system/nfc" />
-  <project name="system_nfc" path="system/nfc" remote="ctr" />-->
+  <remove-project name="platform/system/nfc" />
+  <project name="system_nfc" path="system/nfc" remote="ctr" />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="ctr" />
   <remove-project name="platform/system/qcom" />

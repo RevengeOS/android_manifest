@@ -57,7 +57,7 @@
 
   <!-- External -->
   <project name="Cardinal-AOSP/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="oreo-mr1" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr" />
   <!--<remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />-->

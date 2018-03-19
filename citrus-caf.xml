@@ -57,7 +57,7 @@
 
   <!-- External -->
   <project name="Cardinal-AOSP/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="oreo-mr1" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr" />
   <!--<remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />-->
@@ -168,8 +168,8 @@
 <!-- Citrus-CAF end -->
 
 <!-- Misc Repo's for additional Compatibility -->
-  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
 <!-- <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />

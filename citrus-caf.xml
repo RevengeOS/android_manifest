@@ -166,8 +166,8 @@
 <!-- Citrus-CAF end -->
 
 <!-- Misc Repo's for additional Compatibility -->
-  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
 <!-- <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />

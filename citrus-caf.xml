@@ -59,13 +59,15 @@
   <project name="Cardinal-AOSP/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="oreo-mr1" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr" />
-  <!--<remove-project name="platform/external/f2fs-tools" />
-  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />-->
-  <project name="Cardinal-AOSP/external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="oreo-mr1" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />
+  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
   <remove-project name="platform/external/okhttp" />
   <project name="external_okhttp" path="external/okhttp" remote="ctr" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="ctr" />
+  <remove-project name="platform/external/toybox" />
+  <project name="external_toybox" path="external/toybox" remote="ctr" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -101,6 +103,8 @@
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
   <!--<remove-project name="platform/packages/apps/Camera2" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /> -->
   <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
@@ -111,9 +115,7 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" />
-  <!--<project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
+  <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -124,6 +126,8 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
   <remove-project name="platform/packages/apps/Nfc" />

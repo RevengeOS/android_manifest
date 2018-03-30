@@ -66,6 +66,8 @@
   <project name="external_okhttp" path="external/okhttp" remote="ctr" revision="o8x" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="ctr" revision="o8x" />
+  <remove-project name="platform/external/skia" />
+  <project name="external_skia" path="external/skia" remote="ctr" revision="o8x-la.br" />
   <remove-project name="platform/external/toybox" />
   <project name="external_toybox" path="external/toybox" remote="ctr" revision="o8x" />
 
@@ -115,9 +117,7 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" revision="o8x" />
-  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-15.1" />
-  <!--<remove-project name="platform/packages/apps/Gallery2" />
-  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
+  <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -128,6 +128,7 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" revision="o8x" />
+  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="o8x" />
 

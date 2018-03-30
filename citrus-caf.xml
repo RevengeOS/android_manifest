@@ -116,6 +116,8 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="o8x" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />

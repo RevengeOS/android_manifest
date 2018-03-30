@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  fetch="git://codeaurora.org/quic/la"
+           name="caf"
+           review="codeaurora.org"/>
+  <default remote="caf"
+           revision="LA.BR.1.3.7_rb1.9"
+           sync-j="4" />
+
+  <remote  name="ctr"
+           fetch="https://github.com/Citrus-CAF"
+           revision="o8x-la.br" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Repo's to sync from CODEAURORA -->
+  <include name="codeaurora-la.br.xml" />
+  <!-- Repo's to sync for hals -->
+  <include name="hals.xml" />
+  <!-- Remove redudant repo's -->
+  <include name="remove.xml" />
+
+  <!-- Bionic -->
+  <remove-project name="platform/bionic" />
+  <project name="bionic" path="bionic" remote="ctr" />
+
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="o8x" />
+
+  <!-- Build System -->
+  <remove-project name="platform/build/kati" />
+  <project name="build_kati" path="build/kati" remote="ctr" revision="o8x" />
+  <remove-project name="platform/build" />
+  <project name="build" path="build/make" remote="ctr" revision="o8x">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/build/soong" />
+  <project name="build_soong" path="build/soong" remote="ctr" revision="o8x">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- qc-common & qc-sepolicy -->
+  <remove-project name="device/qcom/common" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" revision="o8x" />
+  <remove-project name="device/qcom/sepolicy" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" revision="o8x"  />
+
+  <!-- External -->
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
+  <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="o8x" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" revision="o8x" />
+  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
+  <remove-project name="platform/external/okhttp" />
+  <project name="external_okhttp" path="external/okhttp" remote="ctr" revision="o8x" />
+  <remove-project name="platform/external/selinux" />
+  <project name="external_selinux" path="external/selinux" remote="ctr" revision="o8x" />
+  <remove-project name="platform/external/toybox" />
+  <project name="external_toybox" path="external/toybox" remote="ctr" revision="o8x" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project name="frameworks_av" path="frameworks/av" remote="ctr" />
+  <remove-project name="platform/frameworks/base" />
+  <project name="frameworks_base" path="frameworks/base" remote="ctr" revision="o8x" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="frameworks_native" path="frameworks/native" remote="ctr" />
+  <!--<remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />-->
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
+  <remove-project name="platform/frameworks/support" />
+  <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="o8x" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project name="hardware_interfaces" path="hardware/interfaces" remote="ctr" revision="o8x" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="hardware_libhardware" path="hardware/libhardware" remote="ctr" revision="o8x" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="hardware_ril" path="hardware/ril" remote="ctr" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
+
+  <!-- Manifest -->
+  <project name="manifest" path="manifest" remote="ctr" revision="o8x"/>
+
+  <!-- Apps -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" revision="o8x" />
+  <!--<remove-project name="platform/packages/apps/Camera2" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /> -->
+  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" revision="o8x" />
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" revision="o8x" />
+  <!--<remove-project name="platform/packages/apps/DeskClock" />
+  <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" revision="o8x" />-->
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" revision="o8x" />
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-15.1" />
+  <!--<remove-project name="platform/packages/apps/Gallery2" />
+  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" /> -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="o8x" />
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="o8x" />
+  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="o8x" />
+
+  <!-- Providers -->
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" revision="o8x" />
+
+  <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project name="system_bt" path="system/bt" remote="ctr" revision="o8x" />
+  <remove-project name="platform/system/core" />
+  <project name="system_core" path="system/core" remote="ctr" />
+  <remove-project name="platform/system/extras" />
+  <project name="system_extras" path="system/extras" remote="ctr" revision="o8x" />
+  <remove-project name="platform/system/media" />
+  <project name="system_media" path="system/media" remote="ctr" revision="o8x"  />
+  <remove-project name="platform/system/qcom" />
+  <project name="vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="ctr" revision="o8x" />
+  <remove-project name="platform/system/sepolicy" />
+  <project name="system_sepolicy" path="system/sepolicy" remote="ctr" revision="o8x" />
+  <remove-project name="platform/system/vold" />
+  <project name="system_vold" path="system/vold" remote="ctr" revision="o8x" />
+
+  <!-- Services -->
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" revision="o8x" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr"/>
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr" />
+
+  <!-- Vendor -->
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="o8x" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="ctr" revision="o8x" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm" />
+  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr" revision="o8x" />
+
+<!-- Citrus-CAF end -->
+
+<!-- Misc Repo's for additional Compatibility -->
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
+<!-- <remove-project name="platform/packages/apps/MusicFX" />
+  <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
+  <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />
+-->
+
+<!-- qcom-prebuilts -->
+  <remove-project name="platform/external/chromium-webview" />
+  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1" />
+  <remove-project name="platform/prebuilts/build-tools" />
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools"  clone-depth="1" />
+  <remove-project name="platform/prebuilts/checkcolor" />
+  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1" />
+  <remove-project name="platform/prebuilts/checkstyle" />
+  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <remove-project name="platform/prebuilts/deqp" />
+  <project name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/devtools" />
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"  clone-depth="1" />
+  <remove-project name="platform/prebuilts/gdb/linux-x86" />
+  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
+  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1" />
+  <remove-project name="platform/prebuilts/jdk/jdk8" />
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"  clone-depth="1" />
+  <remove-project name="platform/prebuilts/libs/libedit" />
+  <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" clone-depth="1" />
+  <remove-project name="platform/prebuilts/maven_repo/android" />
+  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1" />
+  <remove-project name="platform/prebuilts/maven_repo/bumptech" />
+  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1" />
+  <remove-project name="platform/prebuilts/misc" />
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1" />
+  <remove-project name="platform/prebuilts/ndk" />
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1" />
+
+  <!-- Remove -->
+  <remove-project name="kernel/msm-3.10" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom/msm8937_32go"/>
+  <remove-project name="platform/vendor/qcom/tellurium_32"/>
+  <remove-project name="platform/vendor/qcom/tellurium_64"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+
+</manifest>

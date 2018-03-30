@@ -21,13 +21,10 @@
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/sample" />
-  <remove-project name="kernel/msm-4.4" />
-  <remove-project name="platform/hardware/qcom/audio" /> 
+  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/thermal" />
-  <remove-project name="platform/hardware/qcom/vr" /> 
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/CMFileManager" />
   <remove-project name="platform/packages/apps/Gallery" />
@@ -35,13 +32,4 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
-  <remove-project name="platform/vendor/qcom/apq8098_latv" />
-  <remove-project name="platform/vendor/qcom/cobalt" />
-  <remove-project name="platform/vendor/qcom/falcon_32" />
-  <remove-project name="platform/vendor/qcom/falcon_64" />
-  <remove-project name="platform/vendor/qcom/thulium" />
 </manifest>

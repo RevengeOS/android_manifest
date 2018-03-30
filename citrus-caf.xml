@@ -29,7 +29,7 @@
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
   <project name="bootable_recovery" path="bootable/recovery" remote="ctr" />
-  
+
   <!-- Build System -->
   <remove-project name="platform/build/kati" />
   <project name="build_kati" path="build/kati" remote="ctr" />
@@ -50,9 +50,9 @@
   </project>
 
   <!-- qc-common & qc-sepolicy -->
-  <remove-project name="device/qcom/common" />  
+  <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
-  <remove-project name="device/qcom/sepolicy" />    
+  <remove-project name="device/qcom/sepolicy" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />
 
   <!-- External -->
@@ -61,7 +61,7 @@
   <project name="external_DUtils" path="external/DUtils" remote="ctr" />
   <!--<remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" />-->
-  <project name="Cardinal-AOSP/external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="oreo-mr1" />   
+  <project name="Cardinal-AOSP/external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="oreo-mr1" />
   <remove-project name="platform/external/okhttp" />
   <project name="external_okhttp" path="external/okhttp" remote="ctr" />
   <remove-project name="platform/external/selinux" />
@@ -82,7 +82,7 @@
   <project name="frameworks_support" path="frameworks/support" remote="ctr" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/interfaces" /> 
+  <remove-project name="platform/hardware/interfaces" />
   <project name="hardware_interfaces" path="hardware/interfaces" remote="ctr" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="ctr" />
@@ -92,7 +92,7 @@
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
-  
+
   <!-- Manifest -->
   <project name="manifest" path="manifest" remote="ctr" />
 
@@ -104,7 +104,7 @@
   <!--<remove-project name="platform/packages/apps/Camera2" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /> -->
   <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
-  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />  
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
   <!--<remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /> -->
   <remove-project name="platform/packages/apps/Dialer" />
@@ -243,5 +243,19 @@
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
   <remove-project name="platform/prebuilts/tools" />
   <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
+
+  <!-- Remove -->
+  <remove-project name="kernel/msm-4.4" />
+  <remove-project name="platform/hardware/qcom/thermal" />
+  <remove-project name="platform/hardware/qcom/vr" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/apq8098_latv" />
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/falcon_32" />
+  <remove-project name="platform/vendor/qcom/falcon_64" />
+  <remove-project name="platform/vendor/qcom/thulium" />
 
 </manifest>

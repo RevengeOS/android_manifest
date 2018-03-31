@@ -173,6 +173,9 @@
 <!-- Misc Repo's for additional Compatibility -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
   <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
 <!-- <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />

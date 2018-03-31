@@ -78,8 +78,8 @@
   <project name="frameworks_base" path="frameworks/base" remote="ctr" revision="o8x" />
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr" />
-  <!--<remove-project name="platform/frameworks/opt/net/wifi" />
-  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />-->
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
   <remove-project name="platform/frameworks/support" />

@@ -56,18 +56,13 @@
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" revision="o8x"  />
 
   <!-- External -->
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
-  <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="o8x" />
+    <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="o8x" />
   <remove-project name="platform/external/f2fs-tools" />
   <project name="external_f2fs-tools" path="external/f2fs-tools" remote="ctr" revision="o8x" />
-  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
   <remove-project name="platform/external/okhttp" />
   <project name="external_okhttp" path="external/okhttp" remote="ctr" revision="o8x" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="ctr" revision="o8x" />
-  <remove-project name="platform/external/skia" />
-  <project name="external_skia" path="external/skia" remote="ctr" revision="o8x-la.br" />
   <remove-project name="platform/external/toybox" />
   <project name="external_toybox" path="external/toybox" remote="ctr" revision="o8x" />
 
@@ -78,8 +73,6 @@
   <project name="frameworks_base" path="frameworks/base" remote="ctr" revision="o8x" />
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
   <remove-project name="platform/frameworks/support" />
@@ -117,7 +110,6 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" revision="o8x" />
-  <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="o8x" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -167,18 +159,20 @@
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="ctr" revision="o8x" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
   <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr" revision="o8x" />
-
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" revision="o8x" />
 <!-- Citrus-CAF end -->
 
 <!-- Misc Repo's for additional Compatibility -->
-  <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-15.1" />
+  <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
 <!-- <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />
 -->
 
-<!-- qcom-prebuilts -->
+  <!-- prebuilts -->
   <remove-project name="platform/external/chromium-webview" />
   <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" />
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />

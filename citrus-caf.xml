@@ -177,6 +177,8 @@
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-15.1" />
   <project name="Cardinal-AOSP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="oreo-mr1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="Cardinal-AOSP/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="oreo-mr1"/>
 <!-- <remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />
@@ -197,8 +199,6 @@
   <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
   <remove-project name="platform/prebuilts/checkstyle" />
   <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
   <remove-project name="platform/prebuilts/deqp" />
   <project name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="refs/heads/android-framework.lnx.2.9.2.r1-rel" clone-depth="1" />
   <remove-project name="platform/prebuilts/devtools" />

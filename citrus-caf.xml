@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.6.4.r1-07600-8x98.0"
+           revision="refs/tags/LA.UM.6.4.r1-08000-8x98.0"
            sync-j="4" />
 
   <remote  name="ctr"

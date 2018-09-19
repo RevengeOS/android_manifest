@@ -3,7 +3,6 @@
 Howdy, We're Citrus-CAF
 ===================
 
-
 Getting Started
 ---------------
 
@@ -14,14 +13,7 @@ To get started with Citrus-CAF, you'll need to get familiar with
 To initialize your local repository for any Snapdragon devices, use this command:
 
 
-	repo init -u git://github.com/Citrus-CAF/manifest.git -b o8x -m citrus-caf.xml
-
-or
-
-To initialize your local repository for Snapdragon LA.BR devices (MSM8916|MSM8952|MSM8956|MSM8976) use this command:
-
-
-	repo init -u git://github.com/Citrus-CAF/manifest.git -b o8x -m citrus-caf-la.br.xml
+	repo init -u git://github.com/Citrus-CAF/manifest.git -b p9x -m citrus-caf.xml
 
 Time to sync! [I love this part]:
 

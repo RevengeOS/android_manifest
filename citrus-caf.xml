@@ -50,11 +50,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
- 
+
   <!-- Development -->
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="ctr" />
- 
+
   <!-- qc-common & qc-sepolicy -->
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
@@ -183,14 +183,19 @@
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ctr" />
 
-<!-- Citrus-CAF end -->
+  <!-- Citrus-CAF end -->
 
-<!-- Misc Repo's for additional Compatibility -->
+  <!-- Misc repo's for additional compatibility -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <!--remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-9.0" /-->
+
+  <!-- SDClang repo's from ThankYouMario (AOSPA) -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="pie" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="github" revision="pie" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" />
 
 </manifest>

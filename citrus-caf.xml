@@ -100,24 +100,26 @@
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
-  <!--remove-project name="platform/packages/apps/CarrierConfig" />
-  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
-  <remove-project name="platform/packages/apps/Camera2" />
+  <!--remove-project name="platform/packages/apps/Camera2" />
   <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" />
-  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
+  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" /-->
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
-  <remove-project name="platform/packages/apps/DeskClock" />
+  <!--remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" />
-  <!--remove-project name="platform/packages/apps/Launcher3" />
+  <!--project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
   <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="o8x" />
-  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" />
-  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" /-->
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <!--remove-project name="platform/packages/apps/SnapdragonCamera" />
@@ -125,18 +127,18 @@
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" /-->
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" /-->
+  <remove-project name="platform/packages/apps/Terminal" />
+  <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="ctr" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="ctr" clone-depth="1" />
 
   <!-- Providers -->
-  <!--remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
+  <!--remove-project name="platform/packages/providers/MediaProvider" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" /-->
 
   <!-- System -->

@@ -65,6 +65,8 @@
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ctr" />
   <!--project name="external_DUtils" path="external/DUtils" remote="ctr" /-->
+  <remove-project name="platform/external/e2fsprogs" />
+  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" />
   <remove-project name="platform/external/elfutils" />
   <project name="external_elfutils" path="external/elfutils" remote="ctr" />
   <remove-project name="platform/external/selinux" />
@@ -96,15 +98,15 @@
   <project name="manifest" path="manifest" remote="ctr" />
 
   <!-- Apps -->
-  <!--remove-project name="platform/packages/apps/Bluetooth" />
-  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" /-->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
   <!--remove-project name="platform/packages/apps/Camera2" />
-  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /!-->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
-  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" /-->
+  <!--project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" /-->
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
   <!--remove-project name="platform/packages/apps/DeskClock" />
   <project name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="ctr" /-->
@@ -116,10 +118,10 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
   <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
-  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" /-->
+  <!--project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <!--remove-project name="platform/packages/apps/SnapdragonCamera" />
@@ -130,6 +132,8 @@
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Terminal" />
   <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="ctr" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -138,8 +142,8 @@
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
-  <!--remove-project name="platform/packages/providers/MediaProvider" />
-  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" /-->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
@@ -158,8 +162,8 @@
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/tpm" />
   <project name="system_tpm" path="system/tpm" remote="ctr" />
-  <!--remove-project name="platform/system/vold" />
-  <project name="system_vold" path="system/vold" remote="ctr" /-->
+  <remove-project name="platform/system/vold" />
+  <project name="system_vold" path="system/vold" remote="ctr" />
 
   <!-- Services -->
   <!--project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" /-->
@@ -170,6 +174,10 @@
 
   <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <project name="vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="ctr" />
+  <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+  <project name="vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project name="vendor_qcom-opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="ctr">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
@@ -189,7 +197,10 @@
 
   <!-- Misc repo's for additional compatibility -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <!--remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />

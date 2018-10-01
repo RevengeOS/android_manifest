@@ -166,7 +166,7 @@
   <project name="system_vold" path="system/vold" remote="ctr" />
 
   <!-- Services -->
-  <!--project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" /-->
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" />
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
   <!--remove-project name="platform/packages/services/Telecomm" />

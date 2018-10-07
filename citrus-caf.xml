@@ -69,6 +69,8 @@
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" />
   <remove-project name="platform/external/elfutils" />
   <project name="external_elfutils" path="external/elfutils" remote="ctr" />
+  <remove-project name="platform/external/libtextclassifier" />
+  <project name="external_libtextclassifier" path="external/libtextclassifier" remote="ctr" />
   <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="ctr" />
 
@@ -98,6 +100,7 @@
   <project name="manifest" path="manifest" remote="ctr" />
 
   <!-- Apps -->
+  <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -169,11 +172,13 @@
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" />
   <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
-  <!--remove-project name="platform/packages/services/Telecomm" />
-  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr" /-->
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr" />
 
   <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="ctr" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <project name="vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="ctr" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
@@ -202,6 +207,7 @@
   <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <!--remove-project name="platform/packages/apps/MusicFX" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-9.0" /-->

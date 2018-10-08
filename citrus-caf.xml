@@ -119,9 +119,9 @@
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ctr" />
   <!--project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" /-->
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
   <!--project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" /-->
@@ -206,6 +206,7 @@
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <!--remove-project name="platform/packages/apps/MusicFX" />

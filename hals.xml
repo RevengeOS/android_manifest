@@ -41,9 +41,9 @@
   <project name="hardware_qcom_display" path="hardware/qcom/display/msm8996" revision="o8x-8996" remote="ctr" />
   <project name="hardware_qcom_media" path="hardware/qcom/media/msm8996" revision="o8x-8996" remote="ctr" /-->
   <!-- MSM8998 -->
-  <!--project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8998" revision="o8x-8998" remote="ctr" />
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8998" revision="o8x-8998" remote="ctr" />
   <project name="hardware_qcom_display" path="hardware/qcom/display/msm8998" revision="o8x-8998" remote="ctr" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8998" revision="o8x-8998" remote="ctr" /-->
+  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8998" revision="o8x-8998" remote="ctr" />
   <!-- HALS -->
 
 </manifest>

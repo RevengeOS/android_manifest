@@ -265,7 +265,6 @@
   <project groups="p-fs-release,pdk" name="platform/external/nanopb-c" path="external/nanopb-c" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/naver-fonts" path="external/naver-fonts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/netcat" path="external/netcat" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
-  <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/netperf" path="external/netperf" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/neven" path="external/neven" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/nfacct" path="external/nfacct" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/nist-pkits" path="external/nist-pkits" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
@@ -454,7 +453,7 @@
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="refs/heads/display.lnx.4.1.r2-rel"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/heads/location.lnx.3.9.r5-rel"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="refs/heads/video-userspace.lnx.3.1.r2-rel"/>
-  <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal" revision="refs/heads/qvr.lnx.4.0.r2-rel"/>
+  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" revision="refs/heads/qvr.lnx.4.0.r2-rel"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" revision="refs/heads/qvr.lnx.4.0.r2-rel"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="p-fs-release,pdk" name="platform/hardware/ril" path="hardware/ril" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>

@@ -10,7 +10,7 @@
 
   <!-- Thermal -->
   <remove-project name="platform/hardware/qcom/thermal" />
-  <project name="hardware_qcom_thermal" path="hardware/qcom/thermal" remote="ctr" />
+  <project name="hardware_qcom_thermal" path="vendor/qcom/opensource/thermal-hal" remote="ctr" />
 
   <!-- VR -->
   <remove-project name="platform/hardware/qcom/vr" />

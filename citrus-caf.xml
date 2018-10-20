@@ -127,6 +127,8 @@
   <!--project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" /-->
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ctr" />
   <!--remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
@@ -155,6 +157,8 @@
   <project name="system_core_new" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />
   <project name="system_extras" path="system/extras" remote="ctr" />
+  <remove-project name="platform/system/netd" />
+  <project name="system_netd" path="system/netd" remote="ctr" />
   <!--remove-project name="platform/system/nfc" />
   <project name="system_nfc" path="system/nfc" remote="ctr" />
   <remove-project name="platform/system/media" />
@@ -183,6 +187,8 @@
   <project name="vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="ctr" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <project name="vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="ctr" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
+  <project name="vendor_qcom-opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="ctr"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project name="vendor_qcom-opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="ctr">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>

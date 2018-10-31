@@ -8,15 +8,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- Include temporary stuff -->
-  <include name="temp.xml" />
-
-  <!-- Repo's to sync for hals -->
-  <include name="hals.xml" />
-
-  <!-- Remove redudant repo's -->
-  <include name="remove.xml" />
-
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="ctr" />

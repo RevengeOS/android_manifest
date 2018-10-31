@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote  fetch="git://codeaurora.org/quic/la"
+           name="caf"
+           review="codeaurora.org"/>
+  <default remote="caf"
+           revision="refs/tags/LA.UM.7.3.r1-05900-sdm845.0"
+           sync-j="4" />
+
+  <!-- Include Custom repos -->
+  <include name="snippets/ros.xml" />
+
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="refs/heads/uefi.lnx.1.9.r13-rel"/>
   <project groups="p-fs-release,pdk,pdk-cw-fs" name="device/common" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="device/generic/arm64" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>

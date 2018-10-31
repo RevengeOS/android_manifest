@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  fetch="git://codeaurora.org/quic/la"
-           name="caf"
-           review="codeaurora.org"/>
-  <default remote="caf"
-           revision="refs/tags/LA.UM.7.3.r1-05900-sdm845.0"
-           sync-j="4" />
-
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
            revision="p9x" />
@@ -15,8 +8,8 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- Repo's to sync from CAF -->
-  <include name="codeaurora.xml" />
+  <!-- Include temporary stuff -->
+  <include name="temp.xml" />
 
   <!-- Repo's to sync for hals -->
   <include name="hals.xml" />

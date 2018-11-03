@@ -44,6 +44,7 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
   <remove-project name="device/qcom/sepolicy" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="ctr" branch="p9x-legacy" />
 
   <!-- External -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
@@ -65,8 +66,8 @@
   <project name="frameworks_base" path="frameworks/base" remote="ctr" />
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr" />
-  <!--remove-project name="platform/frameworks/opt/net/wifi" />
-  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" /-->
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
   <!--remove-project name="platform/frameworks/support" />
@@ -153,6 +154,8 @@
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/tpm" />
   <project name="system_tpm" path="system/tpm" remote="ctr" />
+  <remove-project name="platform/system/update_engine" />
+  <project name="system_update_engine" path="system/update_engine" remote="ctr" />
   <remove-project name="platform/system/vold" />
   <project name="system_vold" path="system/vold" remote="ctr" />
 
@@ -177,8 +180,14 @@
   <project name="vendor_qcom-opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="ctr">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
   </project>
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <project name="vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project name="vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="ctr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <project name="vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ctr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />
+  <project name="vendor_qcom-opensource_dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project name="vendor_qcom-opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />

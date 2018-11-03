@@ -10,7 +10,7 @@
 
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
   <project name="shivatejapeddi/android_hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="github" revision="citrus" />
-  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
 
   <remove-project name="bionic" />

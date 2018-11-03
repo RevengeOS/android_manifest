@@ -7,7 +7,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/"
            revision="r9.0" />
-
+  
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
   <project name="shivatejapeddi/android_hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="github" revision="citrus" />
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
@@ -17,6 +19,7 @@
   <remove-project name="build" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="frameworks_base" />
+  <remove-project name="external_ant-wireless_ant_native" />
   <remove-project name="platform/tools/external/gradle" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="packages_apps_CustomSquash" />
@@ -36,6 +39,7 @@
   </project>
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="caf" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="r9.0" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r9.0" />

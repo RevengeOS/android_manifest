@@ -17,6 +17,7 @@
   <remove-project name="platform/tools/external/gradle" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="packages_apps_CustomSquash" />
+  <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core_new" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="vendor_citrus" />
@@ -45,6 +46,7 @@
   <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r9.0-caf" />
+  <project name="RevengeOS/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_system_core" path="system/core" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="r9.0-caf" />
   <project path="vendor/gapps" name="Lucchetto/android_vendor_gapps" remote="gitlab" revision="r9.0" />

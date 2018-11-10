@@ -23,6 +23,7 @@
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="vendor_citrus" />
   <remove-project name="vendor_qcom-opensource_fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
   
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
   <project name="shivatejapeddi/android_hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="github" revision="citrus" />

@@ -11,6 +11,7 @@
   <remove-project name="bionic" />
   <remove-project name="build" />
   <remove-project name="platform/external/okhttp" />
+  <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <remove-project name="external_ant-wireless_ant_native" />
   <remove-project name="hardware_qcom_power" />
@@ -40,6 +41,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
+  <project name="RevengeOS/android_frameworks_av" path="frameworks/av" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="caf" />
   <project name="RevengeOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="r9.0-caf" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r10" />

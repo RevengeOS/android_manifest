@@ -43,7 +43,7 @@
   </project>
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <project name="RevengeOS/android_frameworks_av" path="frameworks/av" remote="github" revision="r9.0" />
-  <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="caf" />
+  <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="r9.0-caf" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0" />

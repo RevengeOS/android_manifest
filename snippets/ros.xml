@@ -5,6 +5,10 @@
            fetch="https://github.com/Citrus-CAF"
            revision="p9x" />
 
+  <remote  name="ros"
+           fetch="https://github.com/revengeos"
+           sync-j="16" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -61,6 +65,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/aoscp" name="frameworks_aoscp" remote="ros" revision="poundcake-release" />
   <project name="frameworks_av" path="frameworks/av" remote="ctr" />
   <remove-project name="platform/frameworks/base" />
   <project name="frameworks_base" path="frameworks/base" remote="ctr" />

@@ -50,6 +50,7 @@
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r9.0" />
+  <project name="RevengeOS/android_packages_apps_RevengeDelta" path="packages/apps/RevengeDelta" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_system_core" path="system/core" remote="github" revision="r9.0-caf" />

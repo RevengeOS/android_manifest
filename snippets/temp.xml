@@ -48,6 +48,7 @@
   <project name="RevengeOS/android_frameworks_native" path="frameworks/native" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="r9.0-caf" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
+  <project name="PixelExperience/packages_providers_AmbientPlayHistoryProvider" path="packages/providers/AmbientPlayHistoryProvider" remote="github" revision="pie" />
   <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r9.0" />
   <project name="RevengeOS/android_packages_apps_RevengeDelta" path="packages/apps/RevengeDelta" remote="github" revision="r9.0-caf" />

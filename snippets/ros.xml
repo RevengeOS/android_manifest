@@ -143,6 +143,8 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <project name="system_bt" path="system/bt" remote="ctr" />
+  <remove-project name="platform/system/chre" />
+  <project name="system_chre" path="system/chre" remote="ctr" />
   <remove-project name="platform/system/core" />
   <project name="system_core_new" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />

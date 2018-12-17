@@ -44,7 +44,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
-  <project name="RevengeOS/android_frameworks_av" path="frameworks/av" remote="github" revision="r9.0-test" />
+  <project name="RevengeOS/android_frameworks_av" path="frameworks/av" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_frameworks_native" path="frameworks/native" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="r9.0-caf" />

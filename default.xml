@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.7.3.r1-06300-sdm845.0"
+           revision="refs/tags/LA.UM.7.3.r1-06600-sdm845.0"
            sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="refs/heads/uefi.lnx.1.9.r13-rel"/>
@@ -89,6 +89,7 @@
   <project groups="p-fs-release,pdk" name="platform/external/apache-http" path="external/apache-http" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/apache-xml" path="external/apache-xml" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/archive-patcher" path="external/archive-patcher" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
+  <project groups="qcom-LA.UM.7.3-incoming" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/avb" path="external/avb" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/bart" path="external/bart" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>

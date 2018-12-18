@@ -206,13 +206,13 @@
 
   <!-- Sync with clone-depth=1 to save space -->
   <remove-project name="platform/cts" />
-  <project groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="cts,p-fs-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/external/autotest" />
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="p-fs-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/external/linux-kselftest" />
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="p-fs-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/frameworks/layoutlib" />
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="refs/heads/nfc.lnx.4.0.r5-rel" clone-depth="1" />
 
@@ -224,7 +224,7 @@
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" />
+  <!--project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" /-->
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <!--remove-project name="platform/packages/apps/MusicFX" />

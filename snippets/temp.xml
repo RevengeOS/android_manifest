@@ -58,7 +58,7 @@
   <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_packages_apps_SnapCamera" path="packages/apps/SnapCamera" remote="github" revision="r9.0-caf" />
   <project name="Havoc-OS/android_packages_providers_WeatherProvider" path="packages/providers/WeatherProvider" remote="github" revision="pie" />
-  <project name="RevengeOS/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="r9.0" />
+  <project name="RevengeOS/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_system_core" path="system/core" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="r9.0-caf" />
   <project path="vendor/gapps" name="Lucchetto/android_vendor_gapps" remote="gitlab" revision="r9.0" />

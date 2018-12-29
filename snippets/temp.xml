@@ -25,6 +25,7 @@
   <remove-project name="system_core_new" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="vendor_citrus" />
+  <remove-project name="platform/vendor/google_paintbox" />
   <remove-project name="vendor_qcom-opensource_fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   

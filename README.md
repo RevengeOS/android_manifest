@@ -37,11 +37,12 @@ in the context of Android. More reading if you are interested:
 
 Run these commands to get repo all working (only needed if you did the manual
 method of setup above):
+```bash
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > repo
 $ chmod a+x repo
 $ sudo install repo /usr/local/bin
 $ rm repo
-
+```
 Then run these commands to get git all working:
 ```bash
 $ git config --global user.name "Your Name"
@@ -90,7 +91,7 @@ and their change histories.
 # Tthe x on jx it's the amount of cores you have.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -f --force-sync --no-clone-bundle -jx
+$ repo sync -f --force-sync --no-tags --no-clone-bundle -jx
 ```
 
 ### Building ###
@@ -101,22 +102,23 @@ $ repo sync -f --force-sync --no-clone-bundle -jx
 $ cd WORKSPACE
 # ...and run the build commands.
 $ . build/envsetup.sh
-$ lunch
-$ choose your device From the list
-$ brunch device 
-# For Eg Leeco Le max2 code name is x2 so brunch x2
+$ lunch revengeos_DEVICECODENAME-userdebug
+$ mka bacon
 ```
 
-## Thanks list ##
 
-- <a href="https://github.com/LineageOS">LineageOS</a>
-- 
-- 
--
 
-## Getting Help ##
- Please refer <a href="https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763">this</a> guide from xda
+
+
+
+
+
+
+
+
+
+
  
- #### More Help ####
- Ask in  <a href="https://t.me/joinchat/HFzBDkV7S-P9oT5eEDO9RQ">Telegram Group</a>
+
+
 

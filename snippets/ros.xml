@@ -8,9 +8,14 @@
   <remote  name="ros"
            fetch="https://github.com/revengeos"
            sync-j="16" />
+  
+  <remote  name="devices"
+           fetch="https://github.com/RevengeOS-Devices"
+           revision="r9.0-caf" />
 
   <remote  name="github"
            fetch="https://github.com/" />
+  
 
   <!-- Bionic -->
   <remove-project name="platform/bionic" />

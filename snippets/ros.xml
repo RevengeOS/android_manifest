@@ -239,6 +239,9 @@
   <!-- SDClang repo's from ThankYouMario (AOSPA) -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="github" revision="pie" />
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" />
-
+  <!--project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" -->
+  
+  <!-- Track our SDClang -->
+  <project name="RevengeOS/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="r9.0-caf" />
+  
 </manifest>

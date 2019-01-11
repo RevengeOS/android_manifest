@@ -123,8 +123,8 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ctr" />
-  <!--remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <!--project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ctr" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />

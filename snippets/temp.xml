@@ -66,5 +66,6 @@
   <project name="RevengeOS/android_vendor_revengeos" path="vendor/revengeos" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_vendor_revengeui" path="vendor/revengeui" remote="github" revision="r9.0-caf" />
   <project name="RevengeOS/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" remote="github" revision="r9.0-caf" />
-  
+  <project name="RevengeOS/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="r9.0-caf" />
+
 </manifest>

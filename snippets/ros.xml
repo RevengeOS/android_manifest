@@ -194,8 +194,8 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project name="vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="ctr" />
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <project name="vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="ctr" />
+  <!--remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project name="vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="ctr" /-->
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project name="vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />

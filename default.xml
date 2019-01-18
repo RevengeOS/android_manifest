@@ -719,6 +719,5 @@
   <include name="snippets/ros.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/hals.xml" />
-  <include name="snippets/temp.xml" />
 
 </manifest>

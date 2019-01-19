@@ -60,23 +60,24 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="ros"/>
   <remove-project name="device/qcom/sepolicy" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ros" />
+  <!-- Citrus -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="ctr" revision="p9x-legacy" />
 
   <!-- External -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ros" />
-  <!--project name="external_DUtils" path="external/DUtils" remote="ctr" /-->
   <remove-project name="platform/external/e2fsprogs" />
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="ros" />
   <remove-project name="platform/external/elfutils" />
   <project name="android_external_elfutils" path="external/elfutils" remote="ros" />
   <remove-project name="platform/external/libtextclassifier" />
   <project name="android_external_libtextclassifier" path="external/libtextclassifier" remote="ros" />
-  <remove-project name="platform/external/okhttp" />
-  <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
   <remove-project name="platform/external/selinux" />
   <project name="android_external_selinux" path="external/selinux" remote="ros" />
-
+  <!-- AOSP -->
+  <remove-project name="platform/external/okhttp" />
+  <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r10" />
+  
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project name="frameworks_aoscp" remote="ros" path="frameworks/aoscp" revision="poundcake-release" />
@@ -89,8 +90,6 @@
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ros" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ros" />
-  <!--remove-project name="platform/frameworks/support" />
-  <project name="frameworks_support" path="frameworks/support" remote="ctr" /-->
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -101,38 +100,38 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="ros" />
 
   <!-- Apps -->
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ros" />
+  <!-- Citrus -->
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
-  <!--remove-project name="platform/packages/apps/Camera2" />
-  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /!-->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
-  <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project name="android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ros" />
-  <project name="RevengeOS/android_packages_apps_Extensions" path="packages/apps/Extensions" remote="github" revision="r9.0-caf" />
-  <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r9.0" />
-  <project name="RevengeOS/android_packages_apps_RevengeDelta" path="packages/apps/RevengeDelta" remote="github" revision="r9.0-caf" />
-  <project name="RevengeOS/android_packages_apps_SnapCamera" path="packages/apps/SnapCamera" remote="github" revision="r9.0-caf" />
-  <project name="RevengeOS/android_packages_apps_WeatherClient" path="packages/apps/WeatherClient" remote="github" revision="r9.0-caf" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ros" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ros" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/Terminal" />
   <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="ctr" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
+  <!-- RevengeOS -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ros" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project name="android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ros" />
+  <project name="android_packages_apps_Extensions" path="packages/apps/Extensions" remote="ros" />
+  <project name="android_packages_apps_Recorder" path="packages/apps/Recorder" remote="ros" />
+  <project name="android_packages_apps_RevengeDelta" path="packages/apps/RevengeDelta" remote="ros" />
+  <project name="android_packages_apps_SnapCamera" path="packages/apps/SnapCamera" remote="ros" />
+  <project name="android_packages_apps_WeatherClient" path="packages/apps/WeatherClient" remote="ros" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ros" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ros" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -155,10 +154,6 @@
   <project name="android_system_extras" path="system/extras" remote="ros" />
   <remove-project name="platform/system/netd" />
   <project name="android_system_netd" path="system/netd" remote="ros" />
-  <!--remove-project name="platform/system/nfc" />
-  <project name="system_nfc" path="system/nfc" remote="ctr" />
-  <remove-project name="platform/system/media" />
-  <project name="system_media" path="system/media" remote="ctr" /-->
   <remove-project name="platform/system/security" />
   <project name="android_system_security" path="system/security" remote="ros" />
   <remove-project name="platform/system/sepolicy" />
@@ -169,10 +164,10 @@
   <project name="android_system_update_engine" path="system/update_engine" remote="ros" />
   <remove-project name="platform/system/vold" />
   <project name="android_system_vold" path="system/vold" remote="ros" />
-
+  
   <!-- Services -->
   <remove-project name="platform/packages/services/Telephony" />
-  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="ros" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="ros" />
 
@@ -183,8 +178,6 @@
   <!-- Vendor -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="ros" />
-  <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0" />
-  <remove-project name="platform/vendor/google_paintbox" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <project name="android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="ros" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
@@ -199,22 +192,24 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project name="android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="ros" />
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />
   <project name="android_vendor_qcom-opensource_dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project name="android_vendor_qcom-opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="ros" />
-  <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" />
-  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-  <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="android_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ros" />
   <project name="android_vendor_revengeos" path="vendor/revengeos" remote="ros" />
   <project name="android_vendor_revengeui" path="vendor/revengeui" remote="ros" />
+  <!-- Citrus -->
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" />
+  <!-- Lineage -->
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-16.0" />
+  <!-- Gapps-->
+  <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0" />
 
   <!-- Sync with clone-depth=1 to save space -->
   <remove-project name="platform/cts" />
@@ -228,7 +223,10 @@
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="refs/heads/nfc.lnx.4.0.r5-rel" clone-depth="1" />
 
-  <!-- Citrus-CAF end -->
+  <!-- Track our SDClang -->
+  <project name="RevengeOS/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="r9.0-caf" />
+  
+  <!-- Revenge OS end -->
 
   <!-- Misc repo's for additional compatibility -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-16.0" />
@@ -236,19 +234,44 @@
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
-  <!--project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" /-->
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-  <!--remove-project name="platform/packages/apps/MusicFX" />
-  <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />
-  <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-9.0" /-->
 
   <!-- SDClang repo's from ThankYouMario (AOSPA) -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="github" revision="pie" />
-  <!--project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" -->
-  
-  <!-- Track our SDClang -->
-  <project name="RevengeOS/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="r9.0-caf" />
 
+  <!-- Obsolete -->
+  
+  <!-- External -->
+  <!--project name="external_DUtils" path="external/DUtils" remote="ctr" /-->
+  
+  <!-- SDClang repo -->
+  <!--project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" -->
+ 
+  <!-- Misc repo's for additional compatibility -->
+  <!--project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" /-->
+  <!--remove-project name="platform/packages/apps/MusicFX" />
+  <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />
+  <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-9.0" /-->
+  
+  <!-- System -->
+  <!--remove-project name="platform/system/nfc" />
+  <project name="system_nfc" path="system/nfc" remote="ctr" />
+  <remove-project name="platform/system/media" />
+  <project name="system_media" path="system/media" remote="ctr" /-->
+  
+  <!-- Apps-Citrus -->
+  <!--remove-project name="platform/packages/apps/Camera2" />
+  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /!-->
+  
+  <!-- Frameworks -->
+  <!--remove-project name="platform/frameworks/support" />
+  <project name="frameworks_support" path="frameworks/support" remote="ctr" /-->
+  
+  <!-- Vendor -->
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/google_paintbox" />
+  
 </manifest>

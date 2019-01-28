@@ -112,7 +112,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
   <remove-project name="platform/packages/apps/Nfc" />
-  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" />
+  <project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/Terminal" />
   <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="ctr" />
@@ -178,10 +178,16 @@
   <!-- Vendor -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="ros" />
+  <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
+  <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="github" revision="lineage-16.0" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
-  <project name="android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="ros" />
+  <project name="argraur/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="github" revision="pie" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
-  <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="ros" />
+  <project name="LineageOS/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="github" revision="lineage-16.0" />
+  <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+  <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
@@ -221,7 +227,7 @@
   <remove-project name="platform/frameworks/layoutlib" />
   <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="refs/heads/nfc.lnx.4.0.r5-rel" clone-depth="1" />
+  <project name="LineageOS/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/framework" remote="github" revision="lineage-16.0" clone-depth="1" />
 
   <!-- Track our SDClang -->
   <project name="RevengeOS/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="r9.0-caf" />

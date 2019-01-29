@@ -26,7 +26,7 @@
 
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
-  <project name="bionic" path="bionic" remote="ctr" />
+  <project name="android_bionic" path="bionic" remote="ros" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />

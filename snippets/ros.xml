@@ -96,6 +96,8 @@
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="ros" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="ros" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <project name="LineageOS/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/hardware/ril" />
   <project name="android_hardware_ril" path="hardware/ril" remote="ros" />
 

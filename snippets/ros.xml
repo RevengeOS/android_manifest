@@ -279,7 +279,6 @@
   
   <!-- Vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-  <project name="vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/google_paintbox" />
   

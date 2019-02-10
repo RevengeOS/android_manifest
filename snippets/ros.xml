@@ -138,6 +138,8 @@
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="ctr" clone-depth="1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" revision="pie" remote="github" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />

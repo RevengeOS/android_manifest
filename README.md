@@ -23,7 +23,7 @@ come back here: <a href="https://wiki.archlinux.org/index.php/Android#Building_A
 ">Link to wiki</a>
 
 
-###  Step Two: Configure Repo and Git  ###
+### Step Two: Configure Repo and Git ###
 
 NOTE: If you have any problems with the below commands, try running as root:
 $ sudo -s
@@ -64,6 +64,26 @@ ubuntu1604linuxmint18.sh - Ubuntu 16.04 or higher based distros
 ubuntu1404.sh - Ubuntu 14.04
 linuxmint17x.sh - Linux Mint 17.x
 
+### Configuring Ccache (Speedsup Build process) ###
+
+```bash
+$ nano ~/.bashrc
+```
+At the very bottom (use the Page Down key) paste this code to a new line:
+```bash
+$ export PATH=~/bin:$PATH
+$ export USE_CCACHE=1
+$ export USE_PREBUILT_CACHE=1
+$ export PREBUILT_CACHE_DIR=~/.ccache
+```
+and save it. In nano, that would be Ctrl-O and then Enter. Then Ctrl-X to exit back to terminal.
+Set your ccache size:
+```bash
+$ ccache -M 100G
+$ source ~/.bashrc
+```
+That's it.
+
 ## Initializing Repo ##
 
 ```bash
@@ -91,11 +111,10 @@ and their change histories.
 # Tthe x on jx it's the amount of cores you have.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -f --force-sync --no-tags --no-clone-bundle -jx
+$ repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
 ### Building ###
-
 
 ```bash
 # Go to the root of the source tree...
@@ -103,22 +122,5 @@ $ cd WORKSPACE
 # ...and run the build commands.
 $ . build/envsetup.sh
 $ lunch revengeos_DEVICECODENAME-userdebug
-$ mka bacon
+$ make -jx bacon
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-

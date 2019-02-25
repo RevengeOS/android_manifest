@@ -219,7 +219,7 @@
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-16.0" />
   <!-- Gapps-->
-  <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0" />
+  <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0-caf" />
 
   <!-- Sync with clone-depth=1 to save space -->
   <remove-project name="platform/cts" />

@@ -90,6 +90,8 @@
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ros" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ros" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
+  <project name="android_frameworks_opt_net_voip" path="frameworks/opt/net/voip" remote="ros" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -105,8 +107,6 @@
   <!-- Citrus -->
   <remove-project name="platform/packages/apps/Calendar" />
   <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
-  <remove-project name="platform/packages/apps/CarrierConfig" />
-  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ctr" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -124,6 +124,8 @@
   <!-- RevengeOS -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ros" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project name="android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="ros" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project name="android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="ros" />
   <project name="android_packages_apps_Extensions" path="packages/apps/Extensions" remote="ros" />
@@ -158,6 +160,8 @@
   <project name="android_system_core" path="system/core" remote="ros" />
   <remove-project name="platform/system/extras" />
   <project name="android_system_extras" path="system/extras" remote="ros" />
+  <remove-project name="platform/system/tools/hidl" />
+  <project name="android_system_tools_hidl" path="system/tools/hidl" remote="ros" />
   <remove-project name="platform/system/netd" />
   <project name="android_system_netd" path="system/netd" remote="ros" />
   <remove-project name="platform/system/security" />
@@ -180,7 +184,9 @@
   <!-- Tools -->
   <remove-project name="platform/tools/external/gradle" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r31" />
-
+  <remove-project name="platform/external/proguard" />
+  <project name="android_external_proguard" path="external/proguard" remote="ros" />
+  
   <!-- Vendor -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="ros" />

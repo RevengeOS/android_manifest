@@ -208,8 +208,6 @@
   <project name="android_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ros" />
   <project name="android_vendor_revengeos" path="vendor/revengeos" remote="ros" />
   <project name="android_vendor_revengeui" path="vendor/revengeui" remote="ros" />
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <project name="android_vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="ros" revision="r9.0-caf" />
   <!-- Citrus -->
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" />

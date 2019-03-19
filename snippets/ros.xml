@@ -78,6 +78,8 @@
   <!-- AOSP -->
   <remove-project name="platform/external/okhttp" />
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" />
   
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

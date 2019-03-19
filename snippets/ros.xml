@@ -18,7 +18,8 @@
            fetch="https://github.com/" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           revision="refs/tags/android-9.0.0_r34" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/"
@@ -76,7 +77,7 @@
   <project name="android_external_selinux" path="external/selinux" remote="ros" />
   <!-- AOSP -->
   <remove-project name="platform/external/okhttp" />
-  <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" revision="refs/tags/android-9.0.0_r31" />
+  <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" />
   
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -181,7 +182,7 @@
 
   <!-- Tools -->
   <remove-project name="platform/tools/external/gradle" />
-  <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="refs/tags/android-9.0.0_r31" />
+  <project name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" />
   <remove-project name="platform/external/proguard" />
   <project name="android_external_proguard" path="external/proguard" remote="ros" />
   

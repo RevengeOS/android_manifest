@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ctr"
-           fetch="https://github.com/Citrus-CAF"
-           revision="p9x" />
-
   <remote  name="ros"
            fetch="https://github.com/revengeos"
            revision="r9.0-caf"
@@ -107,20 +103,19 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="ros" />
 
   <!-- Apps -->
-  <!-- Citrus -->
   <remove-project name="platform/packages/apps/Calendar" />
-  <project name="packages_apps_Calendar" path="packages/apps/Calendar" remote="ctr" />
+  <project name="LineageOS/android_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
+  <project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <!-- <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ros" /> -->
   <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
+  <project name="LineageOS/android_packages_apps_Messaging" path="packages/apps/Messaging" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/Terminal" />
-  <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="ctr" />
+  <project name="LineageOS/android_packages_apps_Terminal" path="packages/apps/Terminal" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
+  <project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-16.0" />
 
   <!-- RevengeOS -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -142,7 +137,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
-  <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="ctr" clone-depth="1" />
+  <project name="LineageOS/android_prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="lineage-16.0" clone-depth="1" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" revision="pie" remote="github" />
 
@@ -211,9 +206,8 @@
   <project name="android_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ros" />
   <project name="android_vendor_revengeos" path="vendor/revengeos" remote="ros" />
   <project name="android_vendor_revengeui" path="vendor/revengeui" remote="ros" />
-  <!-- Citrus -->
+
   <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" />
 
   <!-- Gapps-->
   <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0-caf" />
@@ -244,34 +238,6 @@
   <!-- SDClang repo's from ThankYouMario (AOSPA) -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="pie" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="github" revision="pie" />
-
-  <!-- Obsolete -->
-  
-  <!-- External -->
-  <!--project name="external_DUtils" path="external/DUtils" remote="ctr" /-->
-  
-  <!-- SDClang repo -->
-  <!--project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" -->
- 
-  <!-- Misc repo's for additional compatibility -->
-  <!--project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" remote="github" revision="lineage-15.1" /-->
-  <!--remove-project name="platform/packages/apps/MusicFX" />
-  <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-9.0" />
-  <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-9.0" /-->
-  
-  <!-- System -->
-  <!--remove-project name="platform/system/nfc" />
-  <project name="system_nfc" path="system/nfc" remote="ctr" />
-  <remove-project name="platform/system/media" />
-  <project name="system_media" path="system/media" remote="ctr" /-->
-  
-  <!-- Apps-Citrus -->
-  <!--remove-project name="platform/packages/apps/Camera2" />
-  <project name="packages_apps_Camera2" path="packages/apps/Camera2" remote="ctr" /!-->
-  
-  <!-- Frameworks -->
-  <!--remove-project name="platform/frameworks/support" />
-  <project name="frameworks_support" path="frameworks/support" remote="ctr" /-->
   
   <!-- Vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />

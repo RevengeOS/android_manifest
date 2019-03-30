@@ -23,26 +23,11 @@
   <!-- Fm -->
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
   
-  <!-- MSM8916 -->
-  <!--project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8916" revision="o8x-8916" remote="ctr" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8916" revision="o8x-8916" remote="ctr" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8916" revision="o8x-8916" remote="ctr" /-->
-  
-  <!-- MSM8937 -->
-  <!--project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8937" revision="o8x-8937" remote="ctr" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8937" revision="o8x-8937" remote="ctr" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8937" revision="o8x-8937" remote="ctr" /-->
-  
   <!-- MSM8952 -->
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8952" revision="r9.0-caf-8952" remote="ros" />
+  <project name="Le-S2-Pie/android_hardware_qcom_audio-caf" path="hardware/qcom/audio/msm8952" revision="msm8952" remote="github" />
   <project name="Le-S2-Pie/android_hardware_qcom_display-caf" path="hardware/qcom/display/msm8952" revision="msm8952" remote="github" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8952" revision="p9x-8952" remote="ctr" />
- 
-  <!-- MSM8953 -->
-  <!--project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8953" revision="o8x-8953" remote="ctr" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8953" revision="o8x-8953" remote="ctr" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8953" revision="o8x-8953" remote="ctr" /-->
-  
+  <project name="Le-S2-Pie/android_hardware_qcom_media-caf" path="hardware/qcom/media/msm8952" revision="msm8952" remote="github" />
+
   <!-- MSM8998 -->
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/msm8998" revision="r9.0-caf-8998" remote="ros" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display/msm8998" revision="r9.0-caf-8998" remote="ros" />

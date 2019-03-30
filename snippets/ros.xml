@@ -222,9 +222,6 @@
   <remove-project name="platform/frameworks/layoutlib" />
   <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
 
-  <!-- Track our SDClang -->
-  <project name="RevengeOS/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="r9.0-caf" />
-  
   <!-- Revenge OS end -->
 
   <!-- Misc repo's for additional compatibility -->
@@ -234,10 +231,6 @@
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-
-  <!-- SDClang repo's from ThankYouMario (AOSPA) -->
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="pie" />
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="github" revision="pie" />
   
   <!-- Vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />

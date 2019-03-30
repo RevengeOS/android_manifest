@@ -104,7 +104,7 @@
 
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Calendar" />
-  <project name="AOSiP/platform_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="pie" />
+  <project name="LineageOS/android_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="AOSiP/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="pie" />
   <remove-project name="platform/packages/apps/Launcher3" />

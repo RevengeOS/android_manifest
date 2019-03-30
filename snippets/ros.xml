@@ -62,7 +62,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ros" />
   <!-- Citrus -->
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="ctr" revision="p9x-legacy" />
+  <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="ros" />
 
   <!-- External -->
   <remove-project name="platform/external/ant-wireless/ant_native" />

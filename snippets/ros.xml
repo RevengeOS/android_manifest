@@ -61,7 +61,7 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="ros"/>
   <remove-project name="device/qcom/sepolicy" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ros" />
-  <!-- Citrus -->
+  <project name="android_device_revengeos_sepolicy" path="device/revengeos/sepolicy" remote="ros" />
   <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="ros" />
 
   <!-- External -->

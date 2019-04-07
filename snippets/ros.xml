@@ -140,7 +140,11 @@
   <project name="LineageOS/android_prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="lineage-16.0" clone-depth="1" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project name="AOSiP/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" revision="pie" remote="github" />
-
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" remote="aosp" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" remote="aosp" />
+  
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ros" />
@@ -156,6 +160,12 @@
   <project name="android_system_core" path="system/core" remote="ros" />
   <remove-project name="platform/system/extras" />
   <project name="android_system_extras" path="system/extras" remote="ros" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <project name="android_system_hwservicemanager" path="system/hwservicemanager" remote="ros" />
+  <remove-project name="platform/system/libhwbinder" />
+  <project name="android_system_libhwbinder" path="system/libhwbinder" remote="ros" />
+  <remove-project name="platform/system/libhidl" />
+  <project name="android_system_libhidl" path="system/libhidl" remote="ros" />
   <remove-project name="platform/system/tools/hidl" />
   <project name="android_system_tools_hidl" path="system/tools/hidl" remote="ros" />
   <remove-project name="platform/system/netd" />
@@ -170,7 +180,7 @@
   <project name="android_system_update_engine" path="system/update_engine" remote="ros" />
   <remove-project name="platform/system/vold" />
   <project name="android_system_vold" path="system/vold" remote="ros" />
-  
+
   <!-- Services -->
   <remove-project name="platform/packages/services/Telephony" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="ros" />

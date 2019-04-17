@@ -204,6 +204,8 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project name="android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="ros" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />

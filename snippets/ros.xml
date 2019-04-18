@@ -147,7 +147,7 @@
   
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ros" />
+  <project name="AospExtended/platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="9.x" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ros" />
 

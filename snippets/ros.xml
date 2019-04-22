@@ -198,6 +198,8 @@
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" remote="ros" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
+  <project name="android_vendor_qcom-opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="ros"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project name="android_vendor_qcom-opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="ros">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>

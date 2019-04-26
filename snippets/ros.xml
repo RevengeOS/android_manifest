@@ -63,6 +63,8 @@
   <!-- External -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="ros" />
+  <remove-project name="platform/external/chromium-webview" />
+  <project clone-depth="1" name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/external/e2fsprogs" />
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="ros" />
   <remove-project name="platform/external/elfutils" />

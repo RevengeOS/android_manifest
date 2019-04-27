@@ -56,7 +56,8 @@ $ git config --global user.email "you@example.com"
 $ sudo apt-get install git-core
 $ git clone https://github.com/akhilnarang/scripts
 $ cd scripts
-$ ls$ bash setup/<script-name>
+$ ls
+$ bash setup/<script-name>
 ```
 Run the script corresponding to your Linux Distribution:
 arch-manjaro-apricity-build-environment-setup.sh - Arch based distros

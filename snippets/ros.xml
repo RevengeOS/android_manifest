@@ -103,6 +103,7 @@
   <project name="LineageOS/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/hardware/ril" />
   <project name="android_hardware_ril" path="hardware/ril" remote="ros" />
+  <project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="github" revision="lineage-16.0" />
 
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Calendar" />

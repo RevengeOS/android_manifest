@@ -207,6 +207,8 @@
   <project name="android_vendor_qcom-opensource_dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project name="android_vendor_qcom-opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="ros" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <project name="RevengeOS/android_vendor_qcom-opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="r9.0-caf" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="android_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ros" />
   <project name="android_vendor_revengeos" path="vendor/revengeos" remote="ros" />

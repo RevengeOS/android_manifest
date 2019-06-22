@@ -38,4 +38,9 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="ros" revision="r9.0-caf-8996" />
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
 
+  <!-- SDM845 -->
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/sdm845" revision="r9.0-caf-845" remote="ros" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display/sdm845" revision="r9.0-caf-845" remote="ros" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media/sdm845" revision="r9.0-caf-845" remote="ros" />
+
 </manifest>

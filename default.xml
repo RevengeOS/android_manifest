@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.7.3.r1-07800-sdm845.0"
+           revision="refs/tags/LA.UM.7.3.r1-07900-sdm845.0"
            sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="refs/heads/uefi.lnx.1.9.r13-rel"/>

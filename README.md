@@ -59,11 +59,8 @@ $ cd scripts
 $ ls
 $ bash setup/<script-name>
 ```
-Run the script corresponding to your Linux Distribution:
-arch-manjaro-apricity-build-environment-setup.sh - Arch based distros
-ubuntu1604linuxmint18.sh - Ubuntu 16.04 or higher based distros
-ubuntu1404.sh - Ubuntu 14.04
-linuxmint17x.sh - Linux Mint 17.x
+`android_build_env.sh` is for Ubuntu/Linux Mint/other distributions using the `apt` package manager.
+The rest are named as per the distro.
 
 ### Configuring Ccache (Speedsup Build process) ###
 

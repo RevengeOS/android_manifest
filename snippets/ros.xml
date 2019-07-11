@@ -73,6 +73,9 @@
   <project name="android_external_libtextclassifier" path="external/libtextclassifier" remote="ros" />
   <remove-project name="platform/external/selinux" />
   <project name="android_external_selinux" path="external/selinux" remote="ros" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="android_external_sqlite" path="external/sqlite" remote="ros" />
+
   <!-- AOSP -->
   <remove-project name="platform/external/okhttp" />
   <project name="platform/external/okhttp" path="external/okhttp" remote="aosp" />

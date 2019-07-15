@@ -98,6 +98,7 @@
   <project name="android_frameworks_opt_net_voip" path="frameworks/opt/net/voip" remote="ros" />
 
   <!-- Hardware -->
+  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="ros" />
   <remove-project name="platform/hardware/interfaces" />
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="ros" />
   <remove-project name="platform/hardware/libhardware" />
@@ -213,7 +214,7 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project name="android_vendor_qcom-opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="ros" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
-  <project name="RevengeOS/android_vendor_qcom-opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="r9.0-caf" />
+  <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-16.0" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="android_vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ros" />
   <project name="android_vendor_revengeos" path="vendor/revengeos" remote="ros" />

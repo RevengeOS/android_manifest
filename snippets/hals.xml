@@ -22,11 +22,6 @@
   
   <!-- Fm -->
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
-  
-  <!-- MSM8952 -->
-  <project name="Le-S2-Pie/android_hardware_qcom_audio-caf" path="hardware/qcom/audio/msm8952" revision="msm8952" remote="github" />
-  <project name="Le-S2-Pie/android_hardware_qcom_display-caf" path="hardware/qcom/display/msm8952" revision="msm8952" remote="github" />
-  <project name="Le-S2-Pie/android_hardware_qcom_media-caf" path="hardware/qcom/media/msm8952" revision="msm8952" remote="github" />
 
   <!-- MSM8998 -->
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/msm8998" revision="r9.0-caf-8998" remote="ros" />

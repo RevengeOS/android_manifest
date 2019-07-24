@@ -75,6 +75,8 @@
   <project name="android_external_selinux" path="external/selinux" remote="ros" />
   <remove-project name="platform/external/sqlite" />
   <project name="android_external_sqlite" path="external/sqlite" remote="ros" />
+  <remove-project name="platform/external/skia" />
+  <project name="LineageOS/android_external_skia" path="external/skia" remote="github" revision="lineage-16.0" />
 
   <!-- AOSP -->
   <remove-project name="platform/external/okhttp" />

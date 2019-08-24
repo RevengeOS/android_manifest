@@ -144,6 +144,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="ros" />
   <project name="android_packages_overlays_gradients" path="packages/overlays/gradients" remote="ros" />
+  <project name="android_packages_apps_Longshot" path="packages/apps/Longshot" remote="ros" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />

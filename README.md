@@ -112,7 +112,7 @@ and their change histories.
 # Tthe x on jx it's the amount of cores you have.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+$ repo sync -c -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
 ### Building ###

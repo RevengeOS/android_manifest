@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="manifest" name="android_manifest" remote="ros" />
+  <project path="build/make" name="android_build" remote="ros" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="ros" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="ros" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- RevengeOS Core Repos -->
+  <project path="art" name="android_art" remote="ros" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="ros" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="ros" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ros" />
+  <project path="system/bt" name="system_bt" remote="ros" />
+  <project path="system/core" name="android_system_core" remote="ros" />
+  <project path="system/extras" name="android_system_extras" remote="ros" />
+  <project path="system/qcom" name="android_system_qcom" remote="ros" />
+  <project path="system/security" name="android_system_security" remote="ros" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="ros" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="ros" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="ros" />
+  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
+  <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
+
+  <!-- RevengeOS Packages Repos -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ros" />
+  <project path="packages/apps/RevengeLauncher" name="android_packages_apps_RevengeLauncher" remote="ros" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ros" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="ros" />
+
+  <!-- RevengeOS Hardware Repos -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ros" />
+
+  <!-- RevengeOS external repos -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="ros" />
+  <project path="external/selinux" name="android_external_selinux" remote="ros" />>
+
+  <!-- Qcom Vendor Repos -->
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="ros"/>
+</manifest>

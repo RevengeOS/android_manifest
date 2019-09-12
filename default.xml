@@ -8,6 +8,18 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="ros"
+           fetch="https://github.com/revengeos"
+           revision="r10.0"
+           sync-j="16" />
+  
+  <remote  name="devices"
+           fetch="https://github.com/RevengeOS-Devices"
+           revision="r10.0" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

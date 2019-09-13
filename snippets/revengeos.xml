@@ -45,6 +45,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="ros" />
   <project path="system/security" name="android_system_security" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
+  <project path="system/vold" name="android_system_vold" remote="ros" />
 
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />

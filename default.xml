@@ -2,11 +2,9 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-10.0.0_r2"
-           remote="aosp"
-           sync-j="4" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-10.0.0_r2" />
 
   <remote  name="ros"
            fetch="https://github.com/revengeos"
@@ -19,6 +17,10 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+
+  <default revision="refs/tags/android-10.0.0_r2"
+           remote="aosp"
+           sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />

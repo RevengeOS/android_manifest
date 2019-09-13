@@ -32,6 +32,9 @@
   <project path="external/selinux" name="android_external_selinux" remote="ros" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
 
+  <!-- packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ros" />
+
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />
@@ -41,6 +44,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
 
   <!-- Qualcomm vendor repos -->
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-16.0" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-16.0" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage-16.0" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="lineage-17.0" />
   <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="lineage-16.0" />

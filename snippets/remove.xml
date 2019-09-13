@@ -54,6 +54,9 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Nfc" />
+
   <!-- system -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />

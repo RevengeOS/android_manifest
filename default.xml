@@ -782,6 +782,7 @@
 
   <!-- RevengeOS -->
   <include name="snippets/remove.xml" />
+  <include name="snippets/hardware.xml" />
   <include name="snippets/revengeos.xml" />
 
 </manifest>

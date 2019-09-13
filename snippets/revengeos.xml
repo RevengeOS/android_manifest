@@ -32,11 +32,6 @@
   <project path="external/selinux" name="android_external_selinux" remote="ros" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
 
-  <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ros" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="ros" />
-
   <!-- packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ros" />
   <project path="packages/apps/RevengeLauncher" name="android_packages_apps_RevengeLauncher" remote="ros" />

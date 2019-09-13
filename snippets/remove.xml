@@ -69,6 +69,7 @@
   <remove-project name="platform/hardware/qcom/bootctrl" />
 
   <!-- HALs -->
+  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />

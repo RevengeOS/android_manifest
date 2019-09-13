@@ -50,4 +50,16 @@
   <project path="hardware/qcom/wlan-caf" name="ArrowOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="arrow-10.0-caf"/>
   <project path="hardware/qcom/camera" name="ArrowOS/android_hardware_qcom_camera" groups="qcom_camera" remote="github" revision="arrow-10.0" />
 
+  <project path="hardware/qcom/sdm845/bt" name="ArrowOS/android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="ArrowOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="github" revision="arrow-10.0" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="ArrowOS/android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
+  <project path="hardware/qcom/sdm845/gps" name="ArrowOS/android_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
+  <project path="hardware/qcom/sdm845/media" name="ArrowOS/android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
+  <project path="hardware/qcom/sdm845/thermal" name="ArrowOS/android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
+  <project path="hardware/qcom/sdm845/vr" name="ArrowOS/android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
+
+
 </manifest>

@@ -43,6 +43,10 @@
   <project path="system/security" name="android_system_security" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
 
+  <!-- RevengeOS vendor -->
+  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
+  <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
+
   <!-- Qualcomm vendor repos -->
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-16.0" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-16.0" />

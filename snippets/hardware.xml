@@ -2,8 +2,52 @@
 <!-- Hardware repos -->
 <manifest>
 
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="ros" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ros" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="ros" />
+
+  <!-- HALs -->
+  <project path="hardware/qcom/audio/default" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="ArrowOS/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-sdm845" />
+  <project path="hardware/qcom/audio-caf/sm8150" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8150" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-10.0-caf-8998" />
+  <project path="hardware/qcom/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/display-caf/sdm845" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-sdm845" />
+  <project path="hardware/qcom/display-caf/sm8150" name="ArrowOS/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8150" />
+  <project path="hardware/qcom/display-caf/msm8916" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-10.0-caf-8998" />
+  <project path="hardware/qcom/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom" revision="arrow-10.0" remote="github" />
+  <project path="hardware/qcom/media-caf/sdm845" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-sdm845" />
+  <project path="hardware/qcom/media-caf/sm8150" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8150" />
+  <project path="hardware/qcom/media-caf/msm8916" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-10.0-caf-8998" />
+  <project path="hardware/qcom/gps" name="ArrowOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/power" name="ArrowOS/android_hardware_qcom_power" groups="qcom,pdk" remote="github" revision="arrow-10.0" />
+  <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-10.0" />
+  <project path="hardware/ril-caf" name="ArrowOS/android_hardware_ril" groups="qcom" remote="github" revision="arrow-10.0-caf" />
+  <project path="hardware/qcom/bt" name="ArrowOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/bt-caf" name="ArrowOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="arrow-10.0-caf" />
+  <project path="hardware/qcom/thermal" name="ArrowOS/android_hardware_qcom_thermal" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/vr" name="ArrowOS/android_hardware_qcom_vr" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/wlan" name="ArrowOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="arrow-10.0" />
+  <project path="hardware/qcom/wlan-caf" name="ArrowOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="arrow-10.0-caf"/>
+  <project path="hardware/qcom/camera" name="ArrowOS/android_hardware_qcom_camera" groups="qcom_camera" remote="github" revision="arrow-10.0" />
 
 </manifest>

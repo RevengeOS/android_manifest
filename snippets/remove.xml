@@ -49,6 +49,10 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
 
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />

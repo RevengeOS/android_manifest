@@ -55,7 +55,11 @@
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- system -->
   <remove-project name="platform/system/bt" />

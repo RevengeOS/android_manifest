@@ -103,6 +103,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/r8" />
 
   <!-- system -->

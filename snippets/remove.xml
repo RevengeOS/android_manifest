@@ -102,6 +102,9 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/r8" />
+
   <!-- system -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />

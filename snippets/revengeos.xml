@@ -39,6 +39,9 @@
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="github" revision="lineage-17.0" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" remote="github" revision="lineage-17.0" />
+
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />

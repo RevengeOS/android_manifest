@@ -5,6 +5,7 @@
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="ros" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ros" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-17.0" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="ros" />
 
   <!-- HALs -->

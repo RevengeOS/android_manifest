@@ -56,6 +56,7 @@
   <!-- External -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/boringssl" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />

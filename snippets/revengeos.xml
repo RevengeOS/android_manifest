@@ -24,6 +24,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
+  <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" remote="github" revision="cr-8.0" />
 
   <!-- External repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="ros" />

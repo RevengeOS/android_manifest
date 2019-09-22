@@ -47,6 +47,9 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- ART -->
+  <remove-project name="platform/art" />
+
   <!-- build -->
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />

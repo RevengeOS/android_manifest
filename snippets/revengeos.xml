@@ -2,6 +2,8 @@
 <!-- Repos of RevengeOS -->
 <manifest>
 
+  <project path="art" name="LineageOS/android_art" remote="github" revision="lineage-17.0" />
+
   <!-- build -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ros" />
   <project path="build/make" name="android_build" remote="ros" >

@@ -74,7 +74,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="ArrowOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="arrow-10.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ros" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-16.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="CarbonROM/android_vendor_qcom_opensource_interfaces" remote="github" revision="cr-8.0">
+  <project path="vendor/qcom/opensource/interfaces" name="ArrowOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="arrow-10.0">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
 

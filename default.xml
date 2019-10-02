@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.7.3.r1-08200-sdm845.0"
+           revision="refs/tags/LA.UM.7.1.r1-16900-sm8150.0"
            sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="refs/heads/uefi.lnx.1.9.r13-rel"/>
@@ -287,7 +287,6 @@
   <project groups="p-fs-release,pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/okhttp" path="external/okhttp" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/one-true-awk" path="external/one-true-awk" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
-  <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/openssh" path="external/openssh" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/parameter-framework" path="external/parameter-framework" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>

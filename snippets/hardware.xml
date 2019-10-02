@@ -7,6 +7,8 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-17.0" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="ros" />
+  <project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="github" revision="lineage-17.0" />
+
 
   <!-- HALs -->
   <project path="hardware/qcom/audio/default" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="arrow-10.0" />
@@ -61,6 +63,5 @@
   <project path="hardware/qcom/sdm845/media" name="ArrowOS/android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
   <project path="hardware/qcom/sdm845/thermal" name="ArrowOS/android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
   <project path="hardware/qcom/sdm845/vr" name="ArrowOS/android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="github" revision="arrow-10.0"/>
-
 
 </manifest>

@@ -45,7 +45,7 @@
   <project path="hardware/qcom/power" name="ArrowOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />
   <project path="hardware/ril-caf" name="ArrowOS/android_hardware_ril" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0-caf" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lineage-17.0" />
+  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cr-8.0" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0-caf" />
   <project path="hardware/qcom/thermal" name="ArrowOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />
   <project path="hardware/qcom/vr" name="ArrowOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />

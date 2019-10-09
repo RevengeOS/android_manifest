@@ -40,8 +40,9 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-16.0" />
   <project path="external/selinux" name="android_external_selinux" remote="ros" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.0"  />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.0" />
   <project path="external/boringssl" name="android_external_boringssl" remote="ros" />
+  <project path="external/hardened_malloc" name="GrapheneOS/hardened_malloc" remote="github" revision="10" />
 
   <!-- packages -->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ros" />

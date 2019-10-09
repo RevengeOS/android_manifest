@@ -31,7 +31,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-17.0" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" remote="github" revision="cr-8.0" />
 
   <!-- External repos -->

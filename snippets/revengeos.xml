@@ -34,6 +34,10 @@
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-17.0" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" remote="github" revision="cr-8.0" />
 
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />
+  <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="ros" />
+  
   <!-- External repos -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="ros" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="ros" />

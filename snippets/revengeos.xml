@@ -62,6 +62,7 @@
   <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />
   <project path="system/extras" name="android_system_extras" remote="ros" />
+  <project path="system/netd" name="android_system_netd" remote="ros" />
   <project path="system/qcom" name="android_system_qcom" remote="ros" />
   <project path="system/security" name="android_system_security" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />

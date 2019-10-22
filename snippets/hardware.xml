@@ -83,6 +83,5 @@
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-17.0-caf" />
 
   <project path="hardware/qcom/power" name="ArrowOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />
-  <project path="hardware/ril-caf" name="CarbonROM/android_hardware_ril" groups="qcom,pdk-qcom" remote="github" revision="cr-8.0-caf" />
 
 </manifest>

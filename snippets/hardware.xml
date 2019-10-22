@@ -20,6 +20,10 @@
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-17.0" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0" />
 
+  <!-- Broadcom -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="ros" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="ros" />
+
   <!-- CAF HALs -->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0" >
     <!-- add guard for AOSP hardware/qcom dir -->

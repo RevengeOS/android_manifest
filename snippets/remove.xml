@@ -69,6 +69,7 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />

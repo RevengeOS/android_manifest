@@ -68,6 +68,9 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
   <project path="system/vold" name="android_system_vold" remote="ros" />
 
+  <!-- Tools -->
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  remote="github" revision="lineage-17.0" />
+
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />

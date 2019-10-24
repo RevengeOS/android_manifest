@@ -82,6 +82,6 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-17.0-caf" />
 
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="ros" />
+  <project path="hardware/qcom/power" name="ArrowOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="github" revision="arrow-10.0" />
 
 </manifest>

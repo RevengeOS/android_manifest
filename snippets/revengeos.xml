@@ -51,6 +51,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ros" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="github" revision="lineage-17.0" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
+  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" remote="github" revision="lineage-17.0" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" clone-depth="1" />
@@ -60,7 +61,7 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.0" clone-depth="1" />
 
   <!-- system -->
-  <project path="system/bt" name="android_system_bt" remote="ros" />
+  <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-17.0" />
   <project path="system/core" name="android_system_core" remote="ros" />
   <project path="system/extras" name="android_system_extras" remote="ros" />
   <project path="system/netd" name="android_system_netd" remote="ros" />

@@ -34,9 +34,9 @@
   <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
 
   <!-- External repos -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="ros" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="ros" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-16.0" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-17.0" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-17.0" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-17.0" />
   <project path="external/selinux" name="android_external_selinux" remote="ros" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.0"  />

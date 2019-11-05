@@ -61,7 +61,7 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.0" clone-depth="1" />
 
   <!-- system -->
-  <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-17.0" />
+  <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />
   <project path="system/extras" name="android_system_extras" remote="ros" />
   <project path="system/netd" name="android_system_netd" remote="ros" />

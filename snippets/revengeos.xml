@@ -58,6 +58,7 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" remote="github" revision="lineage-17.0" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="ros" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="ros" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" clone-depth="1" />

@@ -15,7 +15,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="github" revision="lineage-17.0" />
+  <project path="build/blueprint" name="android_build_blueprint" remote="ros" />
   <project path="build/soong" name="android_build_soong" remote="ros" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />

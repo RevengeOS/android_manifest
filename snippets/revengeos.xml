@@ -48,6 +48,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="ros" />
 
   <!-- packages -->
+  <project path="packages/apps/BlurView" name="BlurView" remote="ros" revision="master" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ros" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-17.0" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-17.0" />

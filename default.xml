@@ -18,6 +18,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <default revision="refs/tags/android-10.0.0_r25"
            remote="aosp"
            sync-j="4" />

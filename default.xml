@@ -11,7 +11,7 @@
            revision="r10.0"
            sync-j="16" />
   
-  <remote  name="devices"
+  <remote  name="RevengeOS-Devices"
            fetch="https://github.com/RevengeOS-Devices"
            revision="r10.0" />
 

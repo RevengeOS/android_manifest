@@ -72,6 +72,7 @@
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-9.1" remote="ros" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
   <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" remote="github" revision="lineage-17.0" clone-depth="1" />
   <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" remote="github" revision="lineage-17.0" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.0" clone-depth="1" />

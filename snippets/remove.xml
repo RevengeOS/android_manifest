@@ -115,6 +115,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />

@@ -88,6 +88,7 @@
   <project path="system/security" name="android_system_security" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
   <project path="system/vold" name="android_system_vold" remote="ros" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="github" revision="lineage-17.0" />
 
   <!-- Tools -->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  remote="github" revision="lineage-17.0" />

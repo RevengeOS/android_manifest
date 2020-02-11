@@ -27,7 +27,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
-  <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" remote="github" revision="lineage-17.0" />
+  <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" remote="github" revision="lineage-17.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ros" />
 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />
@@ -35,15 +35,15 @@
   <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
 
   <!-- External repos -->
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-17.0" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-17.0" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-17.0" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.0" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-17.0" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.0" />
-  <project path="external/selinux" name="LineageOS/android_external_selinux" remote="github" revision="lineage-17.0" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-17.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-17.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-17.1" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-17.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.1" />
+  <project path="external/selinux" name="LineageOS/android_external_selinux" remote="github" revision="lineage-17.1" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.0"  />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.1"  />
   <project path="external/boringssl" name="android_external_boringssl" remote="ros" />
   <project path="external/sqlite" name="android_external_sqlite" remote="ros" />
   <project path="external/gson" name="android_external_gson" remote="ros" />
@@ -51,8 +51,8 @@
   <!-- packages -->
   <project path="packages/apps/BlurView" name="BlurView" remote="ros" revision="master" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ros" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-17.0" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-17.0" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-17.1" />
+  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-17.1" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="ros" />
   <project path="packages/apps/RevengeLauncher" name="android_packages_apps_RevengeLauncher" remote="ros" />
   <project path="packages/apps/RevengeSettings" name="android_packages_apps_RevengeSettings" remote="ros" />
@@ -62,7 +62,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="ros" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ros" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ros" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ros" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="ros" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="ros" />
@@ -76,9 +76,9 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.1" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-9.1" remote="ros" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
-  <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" remote="github" revision="lineage-17.0" clone-depth="1" />
-  <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" remote="github" revision="lineage-17.0" />
-  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.0" clone-depth="1" />
+  <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" remote="github" revision="lineage-17.1" clone-depth="1" />
+  <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" remote="github" revision="lineage-17.1" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-17.1" clone-depth="1" />
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
@@ -89,33 +89,33 @@
   <project path="system/security" name="android_system_security" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
   <project path="system/vold" name="android_system_vold" remote="ros" />
-  <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="github" revision="lineage-17.0" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="github" revision="lineage-17.1" />
 
   <!-- Tools -->
-  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  remote="github" revision="lineage-17.0" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  remote="github" revision="lineage-17.1" />
 
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
 
   <!-- Qualcomm vendor repos -->
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc"  remote="github" revision="lineage-17.0" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci"  remote="github" revision="lineage-17.0" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks"  remote="github" revision="lineage-17.0" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-17.0" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-17.0-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-17.0-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-17.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-17.0-sn100x" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc"  remote="github" revision="lineage-17.1" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci"  remote="github" revision="lineage-17.1" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks"  remote="github" revision="lineage-17.1" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-17.1" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-17.1-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-17.1-sn100x" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-16.0" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-17.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-17.0">
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-17.1">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
 

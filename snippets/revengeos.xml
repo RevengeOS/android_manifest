@@ -27,7 +27,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
-  <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" remote="github" revision="lineage-17.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ros" />
 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />

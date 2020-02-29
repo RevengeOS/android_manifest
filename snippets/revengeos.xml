@@ -46,6 +46,7 @@
   <project path="external/boringssl" name="android_external_boringssl" remote="ros" />
   <project path="external/sqlite" name="android_external_sqlite" remote="ros" />
   <project path="external/gson" name="android_external_gson" remote="ros" />
+  <project path="external/skia" name="android_external_skia" remote="ros" revision="r10.0"/>
 
   <!-- packages -->
   <project path="packages/apps/BlurView" name="BlurView" remote="ros" revision="master" />

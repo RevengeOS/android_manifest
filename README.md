@@ -21,13 +21,13 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://github.com/RevengeOS/android_manifest -b r10.0
+repo init -u https://github.com/RevengeOS/android_manifest -b r10.0
 ```
 Then to sync up:
 ================
 
 ```bash
-repo sync -c -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
 Finally to build:

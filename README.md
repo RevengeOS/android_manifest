@@ -38,7 +38,7 @@ From root directory of Project, perform following commands in terminal
 
 ```bash
 source build/envsetup.sh
-lunch revengeos_<devicecodename>-userdebug
+lunch revengeos_<devicecodename>-user
 make bacon
 ```
 -----------------------------------------------------------------------------

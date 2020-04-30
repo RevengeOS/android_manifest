@@ -98,6 +98,7 @@
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
+  <project path="vendor/revengeos/official_devices" name="official_devices" remote="RevengeOS-Devices" />
 
   <!-- Qualcomm vendor repos -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc"  remote="github" revision="lineage-17.1" />

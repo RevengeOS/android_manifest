@@ -8,6 +8,7 @@
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" remote="github" revision="lineage-17.1" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="ros" />
   <project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-17.1" />
 
   <!-- AOSP HALs -->
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-17.1" />

@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Non required or replaced repos -->
 <manifest>
+
+  <!-- build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+
 </manifest>

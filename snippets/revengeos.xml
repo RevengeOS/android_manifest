@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Repos of RevengeOS -->
 <manifest>
+
+  <remote  name="ros"
+           fetch="https://github.com/revengeos"
+           revision="r11.0"
+           sync-j="16" />
+
+  <remote  name="devices"
+           fetch="https://github.com/RevengeOS-Devices"
+           revision="r11.0" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- build -->
+  <project path="build/make" name="android_build" remote="ros" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="ros" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
+
+  <!-- system -->
+  <project path="system/core" name="android_system_core" remote="ros" />
+
 </manifest>

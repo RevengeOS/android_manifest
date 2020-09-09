@@ -36,6 +36,7 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="ros" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
 
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />

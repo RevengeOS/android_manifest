@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Repos of RevengeOS -->
+<manifest>
+
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="ros" />
+
+</manifest>

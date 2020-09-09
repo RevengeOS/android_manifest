@@ -37,4 +37,8 @@
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="ros" />
 
+  <!-- RevengeOS vendor -->
+  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
+  <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
+
 </manifest>

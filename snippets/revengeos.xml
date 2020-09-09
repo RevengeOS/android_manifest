@@ -36,6 +36,9 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
 
+  <!-- hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
+
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />

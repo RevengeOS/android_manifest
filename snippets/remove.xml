@@ -61,6 +61,9 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+
   <!-- system -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />

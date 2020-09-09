@@ -38,6 +38,9 @@
 
   <!-- hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
+  
+  <!-- packages -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />

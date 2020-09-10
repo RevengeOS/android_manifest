@@ -46,6 +46,9 @@
   <!-- packages -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" />
+
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />

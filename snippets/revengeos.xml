@@ -30,6 +30,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  
+  <!-- external -->
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.1" />
+  
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ros" />

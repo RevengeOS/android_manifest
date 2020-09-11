@@ -44,6 +44,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
   
   <!-- packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ros" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
   <!-- prebuilts -->

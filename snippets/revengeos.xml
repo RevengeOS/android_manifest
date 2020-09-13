@@ -33,7 +33,7 @@
   
   <!-- external -->
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.1" />
-  
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ros" />

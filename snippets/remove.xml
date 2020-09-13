@@ -61,6 +61,9 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- external -->
+  <remove-project name="platform/external/tinycompress" />
+
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
 

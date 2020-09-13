@@ -82,5 +82,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-17.1">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="ros" revision="r10.0" />
 
 </manifest>

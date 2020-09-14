@@ -7,7 +7,6 @@
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/system/incremental_delivery" />
 
-  <project path="bootable/recovery" name="yaap/bootable_recovery" remote="github" revision="eleven" />
   <project path="build/blueprint" name="luca020400/android_build_blueprint" remote="github" revision="lineage-18.0" />
   <project path="tools/metalava" name="luca020400/android_tools_metalava" remote="github" revision="lineage-18.0" />
 

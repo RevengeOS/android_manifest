@@ -60,6 +60,9 @@
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ros" />
 
+  <!-- recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="ros" />
+
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />

@@ -72,6 +72,9 @@
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  
+  <!-- recovery -->
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />

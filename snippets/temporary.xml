@@ -50,4 +50,6 @@
   <project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
 
   <project path="system/incremental_delivery" name="yaap/system_incremental_delivery" remote="github" revision="eleven" />
+
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="stx-staging/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="11" />
 </manifest>

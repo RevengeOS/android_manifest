@@ -70,9 +70,6 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
 
-  <!-- prebuilts -->
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  
   <!-- recovery -->
   <remove-project name="platform/bootable/recovery" />
 

@@ -2,7 +2,6 @@
 <manifest>
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/external/guice" />
-  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/system/incremental_delivery" />
 
@@ -10,7 +9,6 @@
   <project path="tools/metalava" name="luca020400/android_tools_metalava" remote="github" revision="lineage-18.0" />
 
   <project path="external/guice" name="yaap/external_guice" remote="github" revision="eleven" />
-  <project path="external/selinux" name="stx-staging/android_external_selinux" remote="github" revision="11" />
 
   <!-- CAF HALs -->
   <project path="hardware/qcom-caf/common" name="stx-staging/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="11" >

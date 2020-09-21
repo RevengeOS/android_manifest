@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/system/incremental_delivery" />
@@ -8,6 +9,7 @@
   <project path="build/blueprint" name="luca020400/android_build_blueprint" remote="github" revision="lineage-18.0" />
   <project path="tools/metalava" name="luca020400/android_tools_metalava" remote="github" revision="lineage-18.0" />
 
+  <project path="external/fastrpc" name="stx-staging/android_external_fastrpc" remote="github" revision="11" />
   <project path="external/guice" name="yaap/external_guice" remote="github" revision="eleven" />
 
   <!-- CAF HALs -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Repos of RevengeOS -->
+<manifest>
+
+  <remote  name="common"
+           fetch="https://github.com/AOSP-Common"
+           revision="11.0"
+           sync-j="16" />
+
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="common" />
+
+</manifest>

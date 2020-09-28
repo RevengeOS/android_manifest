@@ -6,6 +6,8 @@
            revision="11.0"
            sync-j="16" />
 
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="common" revision="11.0-caf-sm8150" />
+
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="common" />
 
 </manifest>

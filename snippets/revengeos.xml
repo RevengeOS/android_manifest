@@ -38,6 +38,7 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.0" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.0" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.0" />
   <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="ros" revision="master" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
   

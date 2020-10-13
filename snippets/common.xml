@@ -20,6 +20,7 @@
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="common" />
 
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="common" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="common" />
 
 </manifest>

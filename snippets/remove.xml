@@ -66,6 +66,7 @@
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />

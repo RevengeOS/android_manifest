@@ -13,7 +13,7 @@
   <project path="external/guice" name="yaap/external_guice" remote="github" revision="eleven" />
 
   <!-- CAF HALs -->
-  <project path="hardware/qcom-caf/common" name="PotatoProject-next/hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="d-staging1" >
+  <project path="hardware/qcom-caf/common" name="stx-staging/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="11" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->

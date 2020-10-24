@@ -73,6 +73,8 @@
 
   <!-- recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ros" />
+  
+  <project path="revengeos-sdk" name="android_revengeos-sdk" remote="ros" />
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />

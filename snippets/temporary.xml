@@ -37,5 +37,4 @@
   <project path="vendor/qcom/opensource/interfaces" name="Project-Awaken/android_vendor_qcom_opensource_interfaces" remote="github" revision="11">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
-  <project path="vendor/qcom/opensource/vibrator" name="derp-caf/vendor_qcom_opensource_vibrator" remote="github" revision="r11" />
 </manifest>

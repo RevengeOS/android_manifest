@@ -80,7 +80,6 @@
   <project path="revengeos-sdk" name="android_revengeos-sdk" remote="ros" />
 
   <!-- system -->
-  <project path="system/bt" name="android_system_bt" remote="ros" />
   <project path="system/core" name="android_system_core" remote="ros" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
   <project path="system/vold" name="android_system_vold" remote="ros" />

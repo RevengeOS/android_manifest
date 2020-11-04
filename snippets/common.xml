@@ -11,6 +11,8 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/services/Telecomm" />
 
+  <remove-project name="platform/system/bt" />
+
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="common" />
 
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="common" revision="11.0-caf-msm8998" />
@@ -18,6 +20,8 @@
 
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="common" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="common" />
+
+  <project path="system/bt" name="android_system_bt" remote="common" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="common" />
 

@@ -42,7 +42,7 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.0" />
   <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="ros" revision="master" />
   <project path="external/SimpleWeather" name="SimpleWeather" remote="ros" revision="master" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="ros" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="lineage-18.0" />
   
   <!-- device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />

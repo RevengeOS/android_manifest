@@ -5,6 +5,7 @@
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/external/selinux" />
 
   <project path="build/blueprint" name="luca020400/android_build_blueprint" remote="github" revision="lineage-18.0" />
   <project path="tools/metalava" name="luca020400/android_tools_metalava" remote="github" revision="lineage-18.0" />
@@ -26,7 +27,8 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote= "ros" />
 
   <project path="system/incremental_delivery" name="yaap/system_incremental_delivery" remote="github" revision="eleven" />
-
+  <project path="external/selinux" name="Project-Fluid/external_selinux" remote="github" revision="fluid-11" />
+  
   <project path="vendor/qcom/opensource/audio" name="yaap/vendor_qcom_opensource_audio" remote="github" revision="eleven" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" revision="lineage-18.0" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth_ext" remote="github" revision="lineage-18.0" />

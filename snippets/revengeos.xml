@@ -57,6 +57,7 @@
 
   <!-- hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="github" revision="lineage-18.0" />
   
   <!-- packages -->
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" remote="github" revision="lineage-18.0" />

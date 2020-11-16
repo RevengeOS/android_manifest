@@ -32,7 +32,7 @@
   <project path="vendor/qcom/opensource/audio" name="yaap/vendor_qcom_opensource_audio" remote="github" revision="eleven" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" revision="lineage-18.0" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth_ext" remote="github" revision="lineage-18.0" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_system_bt" remote="github" revision="lineage-18.0" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSiP/platform_vendor_qcom_opensource_system_bt" remote="github" revision="eleven" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="stx-staging/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="11" />
   <project path="vendor/qcom/opensource/interfaces" name="Project-Awaken/android_vendor_qcom_opensource_interfaces" remote="github" revision="11">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />

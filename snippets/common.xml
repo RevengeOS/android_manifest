@@ -6,12 +6,22 @@
            revision="11.0"
            sync-j="16" />
 
+  <remove-project name="platform/art" />
+
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/scudo" />
+
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/services/Telecomm" />
 
   <remove-project name="platform/system/bt" />
+
+  <project path="art" name="android_art" remote="common" />
+  
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="common" />
+  <project path="external/scudo" name="android_external_scudo" remote="common" />
 
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="common" />
 

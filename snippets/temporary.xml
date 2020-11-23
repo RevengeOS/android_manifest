@@ -24,7 +24,6 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="ros" />
-  <project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
 
   <project path="system/incremental_delivery" name="yaap/system_incremental_delivery" remote="github" revision="eleven" />
   <project path="external/selinux" name="Project-Fluid/external_selinux" remote="github" revision="fluid-11" />

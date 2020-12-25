@@ -23,7 +23,7 @@ make bacon
 &nbsp;
 
 ## Maintain officially
-- Make sure your unofficial builds are fully stable and then proceed ahead. [Tap here](https://bit.ly/MaintainRevenge).
+- Make sure your unofficial builds are fully stable and then proceed ahead. [Tap here](https://bit.ly/MaintainRevengeOS).
 
 ## Links:
 - [Website](https://www.revengeos.com)

@@ -39,4 +39,4 @@ make bacon
  - [DirtyUnicorns](https://github.com/dirtyunicorns)
  - [AospExtended](https://github.com/AospExtended)
  - [PixelExperience](https://github.com/PixelExperience)
- - [ABC](https://github.com/ezio84?tab=repositories)
+ - [ABC](https://github.com/ezio84)

@@ -1,7 +1,5 @@
 <img src="https://raw.githubusercontent.com/pratyakshm/revenge_manifest/r11.0/assets/banner.jpg"> 
 
-**Warning:** The ROM is still in beta stage. Reach us on [Telegram](https://t.me/itsrevengeos) in order to report any compilation issue / bug(s).
-
 ## Build the ROM!
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 ### Initialize your local repository using this command:

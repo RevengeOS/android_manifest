@@ -96,6 +96,7 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="ros" />
+  <project path="system/netd" name="LineageOS/android_system_netd" remote="github" revision="lineage-18.1" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
   <project path="system/vold" name="android_system_vold" remote="ros" />
 

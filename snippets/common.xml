@@ -6,31 +6,13 @@
            revision="11.0"
            sync-j="16" />
 
-  <remove-project name="platform/art" />
-
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/scudo" />
 
-  <remove-project name="platform/frameworks/opt/telephony" />
-
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/services/Telecomm" />
-
-  <remove-project name="platform/system/bt" />
-
-  <project path="art" name="android_art" remote="common" />
-  
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="common" />
   <project path="external/scudo" name="android_external_scudo" remote="common" />
 
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="common" />
-
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="common" revision="11.0-caf" />
-
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="common" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="common" />
-
-  <project path="system/bt" name="android_system_bt" remote="common" />
 
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="common" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="common" />

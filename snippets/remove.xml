@@ -2,6 +2,9 @@
 <!-- Non required or replaced repos -->
 <manifest>
 
+  <!-- art -->
+  <remove-project name="platform/art" />
+
   <!-- build -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
@@ -56,6 +59,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- external -->
   <remove-project name="platform/external/tinycompress" />
@@ -65,12 +69,14 @@
   <remove-project name="platform/hardware/interfaces" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -82,6 +88,7 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />

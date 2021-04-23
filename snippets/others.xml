@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove projects -->
+  <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/selinux" />
+
+  <!-- Statix Staging -->
+  <project path="external/fastrpc" name="stx-staging/android_external_fastrpc" remote="github" revision="11" />
+
+  <!-- Project Fluid -->
+  <project path="external/selinux" name="Project-Fluid/external_selinux" remote="github" revision="fluid-11" />
+  <project path="external/asus/stitchimage" name="Project-Fluid/external_asus_stitchimage" remote="github" revision="fluid-11" />
+  
+  <!-- YAAP -->
+  <project path="vendor/qcom/opensource/audio" name="yaap/vendor_qcom_opensource_audio" remote="github" revision="eleven" />
+</manifest>

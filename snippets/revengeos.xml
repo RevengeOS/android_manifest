@@ -21,6 +21,7 @@
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/external/arm-optimized-routines" />
 
   <!-- ART -->
   <project path="art" name="android_art" remote="ros" />
@@ -51,6 +52,7 @@
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="ros" groups="pdk" />
   <project path="external/exfat" name="android_external_exfat" remote="ros" />
   <project path="external/guice" name="LineageOS/android_external_guice" remote="github" revision="lineage-18.1" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-18.1" />

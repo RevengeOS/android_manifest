@@ -3,6 +3,12 @@
   <!-- Remove projects -->
   <remove-project name="platform/external/selinux" />
 
+  <!-- AOSPA -->
+  <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="github" revision="ruby" />
+
+  <!-- Kdrag0n -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
   <!-- Project Fluid -->
   <project path="external/selinux" name="Project-Fluid/external_selinux" remote="github" revision="fluid-11" />
   <project path="external/asus/stitchimage" name="Project-Fluid/external_asus_stitchimage" remote="github" revision="fluid-11" />

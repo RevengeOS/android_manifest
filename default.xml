@@ -832,6 +832,6 @@
   <!-- RevengeOS -->
   <include name="snippets/remove.xml" />
   <include name="snippets/revengeos.xml" />
-  <include name="snippets/hardware.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/others.xml" />
 </manifest>

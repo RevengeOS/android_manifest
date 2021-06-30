@@ -2,9 +2,8 @@
 <!-- Repos of RevengeOS -->
 <manifest>
   <remote  name="ros"
-           fetch="https://github.com/revengeos"
-           revision="r11.0"
-           sync-j="16" />
+           fetch="https://github.com/RevengeOS"
+           revision="r11.0" />
 
   <remote  name="devices"
            fetch="https://github.com/RevengeOS-Devices"

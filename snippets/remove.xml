@@ -63,6 +63,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/jemalloc_new" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />

@@ -8,6 +8,7 @@
 
   <!-- Kdrag0n -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+  <project path="external/jemalloc_new" name="ProtonAOSP/android_external_jemalloc_new" remote="github" revision="rvc" />
 
   <!-- Project Fluid -->
   <project path="external/selinux" name="Project-Fluid/external_selinux" remote="github" revision="fluid-11" />

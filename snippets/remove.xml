@@ -10,6 +10,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <!-- libcore -->
+  <remove-project name="platform/libcore" />
+
   <!-- google/generic/unused devices -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
